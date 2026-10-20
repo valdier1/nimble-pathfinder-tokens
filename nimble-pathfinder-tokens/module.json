@@ -1,10 +1,10 @@
 {
   "id": "nimble-pathfinder-tokens",
   "title": "Nimble - Pathfinder Tokens",
-  "version": "1.0",
+  "version": "1.1",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "authors": [
     {
@@ -23,7 +23,11 @@
       }
     },
     "tokenRingSubjectMappings": {
-      "modules/pf2e-tokens-bestiaries/tokens/": "modules/pf2e-tokens-bestiaries/subjects/"
+      "modules/pf2e-tokens-bestiaries/tokens/": "modules/pf2e-tokens-bestiaries/subjects/",
+      "modules/pf2e-tokens-monster-core/assets/tokens/": "modules/pf2e-tokens-monster-core/assets/subjects/",
+      "modules/pf2e-tokens-monster-core-2/assets/tokens/": "modules/pf2e-tokens-monster-core-2/assets/subjects/",
+      "modules/pf2e-tokens-draconic-codex/assets/tokens/": "modules/pf2e-tokens-draconic-codex/assets/subjects/",
+      "modules/pf2e-tokens-npc-core/assets/tokens/": "modules/pf2e-tokens-npc-core/assets/subjects/"
     },
     "pf2e-tokens-bestiaries": {
       "nimble-art": "modules/nimble-pathfinder-tokens/module/map-bestiaries.json"
@@ -41,8 +45,34 @@
         "type": "module",
         "compatibility": {}
       }
+    ],
+    "recommends": [
+      {
+        "id": "pf2e-tokens-npc-core",
+        "type": "module",
+        "reason": "Art for bandits, guards, cultists and other humanoids"
+      },
+      {
+        "id": "pf2e-tokens-monster-core",
+        "type": "module",
+        "reason": "More monster art, used ahead of Bestiaries for some creatures"
+      },
+      {
+        "id": "pf2e-tokens-monster-core-2",
+        "type": "module",
+        "reason": "More monster art, used ahead of Bestiaries for some creatures"
+      },
+      {
+        "id": "pf2e-tokens-draconic-codex",
+        "type": "module",
+        "reason": "Extra dragon art"
+      }
     ]
   },
   "manifest": "https://github.com/javierriveracastro/nimble-pathfinder-tokens/releases/download/latest/module.json",
-  "download": "https://github.com/javierriveracastro/nimble-pathfinder-tokens/releases/download/latest/nimble-pathfinder-tokens.zip"
+  "download": "https://github.com/javierriveracastro/nimble-pathfinder-tokens/releases/download/latest/nimble-pathfinder-tokens.zip",
+  "description": "Maps Pathfinder token art onto Nimble monsters: the Nimble compendiums, and monsters imported from Nimble Nexus as they are created.",
+  "esmodules": [
+    "scripts/nimble-art.js"
+  ]
 }
