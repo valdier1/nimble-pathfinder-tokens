@@ -468,6 +468,14 @@
   "choices": [
    {
     "module": "pf2e-tokens-npc-core",
+    "label": "Saboteur",
+    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/saboteur.webp",
+    "token": "modules/pf2e-tokens-npc-core/assets/tokens/saboteur.webp",
+    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/saboteur.webp",
+    "scale": 2
+   },
+   {
+    "module": "pf2e-tokens-npc-core",
     "label": "Leaping Thief",
     "actor": "modules/pf2e-tokens-npc-core/assets/portraits/leaping-thief.webp",
     "token": "modules/pf2e-tokens-npc-core/assets/tokens/leaping-thief.webp",
@@ -480,14 +488,6 @@
     "actor": "modules/pf2e-tokens-npc-core/assets/portraits/burglar.webp",
     "token": "modules/pf2e-tokens-npc-core/assets/tokens/burglar.webp",
     "subject": "modules/pf2e-tokens-npc-core/assets/subjects/burglar.webp",
-    "scale": 2
-   },
-   {
-    "module": "pf2e-tokens-npc-core",
-    "label": "Saboteur",
-    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/saboteur.webp",
-    "token": "modules/pf2e-tokens-npc-core/assets/tokens/saboteur.webp",
-    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/saboteur.webp",
     "scale": 2
    }
   ]
@@ -2609,18 +2609,18 @@
   "choices": [
    {
     "module": "pf2e-tokens-npc-core",
-    "label": "Prophet",
-    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/prophet.webp",
-    "token": "modules/pf2e-tokens-npc-core/assets/tokens/prophet.webp",
-    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/prophet.webp",
-    "scale": 2
-   },
-   {
-    "module": "pf2e-tokens-npc-core",
     "label": "Cult Leader",
     "actor": "modules/pf2e-tokens-npc-core/assets/portraits/cult-leader.webp",
     "token": "modules/pf2e-tokens-npc-core/assets/tokens/cult-leader.webp",
     "subject": "modules/pf2e-tokens-npc-core/assets/subjects/cult-leader.webp",
+    "scale": 2
+   },
+   {
+    "module": "pf2e-tokens-npc-core",
+    "label": "Prophet",
+    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/prophet.webp",
+    "token": "modules/pf2e-tokens-npc-core/assets/tokens/prophet.webp",
+    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/prophet.webp",
     "scale": 2
    },
    {
@@ -6026,6 +6026,14 @@
   "name": "Krogg, Goblin King",
   "choices": [
    {
+    "module": "pf2e-tokens-npc-core",
+    "label": "Big Boss Goblin",
+    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/big-boss-goblin.webp",
+    "token": "modules/pf2e-tokens-npc-core/assets/tokens/big-boss-goblin.webp",
+    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/big-boss-goblin.webp",
+    "scale": 2
+   },
+   {
     "module": "pf2e-tokens-monster-core",
     "label": "Bugbear Tormentor",
     "actor": "modules/pf2e-tokens-monster-core/assets/portraits/bugbear-tormentor.webp",
@@ -6040,14 +6048,6 @@
     "token": "modules/pf2e-tokens-bestiaries/tokens/humanoid/goblinoid/bugbear-thug.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/humanoid/goblinoid/bugbear-thug.webp",
     "scale": 1.5
-   },
-   {
-    "module": "pf2e-tokens-npc-core",
-    "label": "Big Boss Goblin",
-    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/big-boss-goblin.webp",
-    "token": "modules/pf2e-tokens-npc-core/assets/tokens/big-boss-goblin.webp",
-    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/big-boss-goblin.webp",
-    "scale": 2
    }
   ]
  },
