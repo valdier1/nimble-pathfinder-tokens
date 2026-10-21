@@ -6,6 +6,7 @@
 * Fixed the Gnoll using zombie art.
 * Your own art: drop images named after a monster into a `custom-tokens` folder in your user data and they are used first, including for Nexus monsters with no Pathfinder art.
 * New settings: turn creation art on or off, keep Nimble's built-in art, keep art that comes from Nexus.
+* Monster tokens placed on scenes get art too, including scenes from an adventure import. A second macro updates scenes already in the world: `game.modules.get("nimble-pathfinder-tokens").api.applyArtToScenes()`
 * Macro to apply art to monsters already in the world: `game.modules.get("nimble-pathfinder-tokens").api.applyArtToWorldActors()`
 
 # Version 1.0 aka GMG monster ready

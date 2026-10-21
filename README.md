@@ -25,8 +25,20 @@ Case, spaces, hyphens, punctuation and numbers at the end (`-1`, `-2`) don't mat
 * **Apply art to new monsters** (on by default)
 * **Your art folder** (`custom-tokens` by default; leave empty to turn it off)
 * **Use your art first** (on by default)
+* **Apply art to monsters placed on scenes** (on by default)
 * **Replace Nimble's built-in monster art** (on by default)
 * **Replace art that comes from Nimble Nexus** (off by default)
+
+## Scenes and adventures
+
+Monster tokens placed on scenes keep their own copy of an image, so they need their own pass:
+
+* **New scenes**, including scenes from an adventure import, get art on their placed monster tokens as they are created. A token is matched by its actor's name, or by its own name if the actor isn't in the world yet. Only the image and token ring change; position, size and everything else stay as they are. Tokens that already use art you chose are left alone.
+* **Scenes already in your world:** run this as a GM macro. Pass `{ dryRun: true }` first to see what would change.
+
+```js
+game.modules.get("nimble-pathfinder-tokens").api.applyArtToScenes()
+```
 
 ## Monsters already in your world
 

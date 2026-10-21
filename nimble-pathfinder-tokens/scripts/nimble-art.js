@@ -202,6 +202,78 @@ async function applyArtToWorldActors({ dryRun = false } = {}) {
   return updates;
 }
 
+/**
+ * Art for a token placed on a scene, or null to leave it alone.
+ * The monster is identified by its actor's name when the actor is in the world,
+ * otherwise by the token's own name. Size, position, disposition and anything
+ * else on the token are kept; only its image and ring are changed.
+ */
+export function tokenArtUpdate(token, actorName = null) {
+  const img = token.texture?.src ?? "";
+  for (const name of [actorName, token.name]) {
+    if (!name) continue;
+    const choice = choose({ name, img, _stats: token._stats });
+    if (!choice) continue;
+    if (img === choice.token) return null;
+    const scale = Number(choice.scale) || 1;
+    return {
+      texture: { src: choice.token, scaleX: scale, scaleY: scale },
+      ring: choice.subject ? { enabled: true, subject: { texture: choice.subject, scale } } : { enabled: false },
+    };
+  }
+  return null;
+}
+
+function tokenUpdates(tokens) {
+  const updates = [];
+  for (const token of tokens ?? []) {
+    const actorName = token.actorId ? game.actors?.get(token.actorId)?.name ?? null : null;
+    const u = tokenArtUpdate(token, actorName);
+    if (u) updates.push({ _id: token._id, ...u });
+  }
+  return updates;
+}
+
+/** Scenes created in the world, including from an adventure import, get art on their placed monsters. */
+function onPreCreateScene(scene, data, options, userId) {
+  if (userId !== game.user?.id) return;
+  if (setting("applyOnCreate") === false || setting("applyToScenes") === false) return;
+  const tokens = data.tokens ?? [];
+  const byId = new Map(tokenUpdates(tokens).map((u) => [u._id, u]));
+  if (!byId.size) return;
+  const merge = foundry.utils.mergeObject;
+  const next = tokens.map((t) => {
+    const u = byId.get(t._id);
+    if (!u) return t;
+    const { _id, ...change } = u;
+    return merge(foundry.utils.deepClone(t), change, { inplace: false });
+  });
+  scene.updateSource({ tokens: next });
+}
+
+/**
+ * Apply art to monster tokens already placed on scenes in the world. Run from a macro:
+ *   game.modules.get("nimble-pathfinder-tokens").api.applyArtToScenes()
+ * Pass { dryRun: true } to only count what would change.
+ */
+async function applyArtToScenes({ dryRun = false } = {}) {
+  if (!game.user?.isGM) { ui.notifications.warn("Only a GM can apply token art to scenes."); return []; }
+  await loadTable();
+  await loadCustomArt();
+  const report = [];
+  let total = 0;
+  for (const scene of game.scenes) {
+    const updates = tokenUpdates(scene.tokens.map((t) => t.toObject()));
+    if (!updates.length) continue;
+    total += updates.length;
+    report.push({ scene: scene.name, tokens: updates.length });
+    if (!dryRun) await scene.updateEmbeddedDocuments("Token", updates);
+  }
+  ui.notifications.info(`${dryRun ? "Would update" : "Updated"} ${total} token${total === 1 ? "" : "s"} on ${report.length} scene${report.length === 1 ? "" : "s"}.`);
+  console.table(report);
+  return report;
+}
+
 async function loadTable() {
   if (table) return table;
   try {
@@ -246,6 +318,11 @@ if (typeof Hooks !== "undefined") {
       hint: "Give monsters token art when they are created, including Nimble Nexus imports.",
       scope: "world", config: true, type: Boolean, default: true,
     });
+    game.settings.register(MODULE_ID, "applyToScenes", {
+      name: "Apply art to monsters placed on scenes",
+      hint: "When a scene is created, such as from an adventure import, give its placed monster tokens the same art.",
+      scope: "world", config: true, type: Boolean, default: true,
+    });
     game.settings.register(MODULE_ID, "customFolder", {
       name: "Your art folder",
       hint: "Folder in Foundry's user data with your own monster art, named after each monster (Goblin Ratrider.png, Goblin Ratrider-token.png). Leave empty to turn this off.",
@@ -267,16 +344,19 @@ if (typeof Hooks !== "undefined") {
       hint: "When off, Nexus monsters that already have their own art keep it. Your own art always replaces it.",
       scope: "world", config: true, type: Boolean, default: false,
     });
-    game.modules.get(MODULE_ID).api = { applyArtToWorldActors, reloadCustomArt: loadCustomArt, normalizeName };
+    game.modules.get(MODULE_ID).api = { applyArtToWorldActors, applyArtToScenes, reloadCustomArt: loadCustomArt, normalizeName };
     loadTable();
   });
   // Browsing files needs a logged-in user, so wait for ready.
   Hooks.once("ready", () => { loadCustomArt(); });
   Hooks.on("preCreateActor", onPreCreateActor);
+  Hooks.on("preCreateScene", onPreCreateScene);
 }
 
 export const __test = {
   onPreCreateActor,
+  onPreCreateScene,
+  applyArtToScenes,
   setTable: (t) => { table = t; },
   setCustom: (paths) => { custom = groupCustomFiles(paths); },
 };
