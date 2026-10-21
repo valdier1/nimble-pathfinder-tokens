@@ -10,9 +10,10 @@
  *  1. The GM's own art folder (setting "customFolder", "custom-tokens" by
  *     default, in Foundry's user data). Files are matched to monsters by name:
  *       Goblin Ratrider.png          portrait (actor image)
- *       Goblin Ratrider-token.png    token image
- *       Goblin Ratrider-subject.png  optional token-ring cutout
- *     Case, spaces, hyphens and punctuation are ignored when matching.
+ *       Goblin Ratrider token.png    token image
+ *       Goblin Ratrider subject.png  optional token-ring cutout
+ *     Case, spaces, hyphens, punctuation and trailing copy numbers ("-1",
+ *     "-2") are ignored, and a name before a comma ("Dregatha, ...") also matches.
  *  2. module/art-by-name.json. Each monster lists choices in order of
  *     preference; the first whose token module is active wins, so art from a
  *     module that isn't installed is skipped instead of leaving a broken image.
@@ -44,16 +45,35 @@ function customFolder() {
   return String(setting("customFolder") ?? "custom-tokens").trim().replace(/^\/+|\/+$/g, "");
 }
 
+/**
+ * Work out which monster and which role an image file is for.
+ * "Book Mimic-1.png" -> Book Mimic, portrait; "book mimic token-2.png" -> Book Mimic, token.
+ * Trailing copy numbers ("-1", " 2", "(3)") are ignored, and "token" or "subject"
+ * at the end of the name marks the role.
+ */
+export function parseArtFile(file) {
+  let base = String(file).replace(/\.[^.]+$/, "").trim();
+  base = base.replace(/[\s_-]*(\(\d+\)|\d+)$/, "");
+  const m = base.match(/^(.*?)[\s_-]+(token|subject)$/i);
+  const label = (m ? m[1] : base).replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim();
+  return { label, role: m ? m[2].toLowerCase() : "actor" };
+}
+
+/** The proper name before a comma ("Dregatha" in "Dregatha, Thrice-Chinned"), if it's distinctive. */
+function leadName(label) {
+  const i = String(label).indexOf(",");
+  if (i < 0) return null;
+  const k = normalizeName(label.slice(0, i));
+  return k.length >= 4 ? k : null;
+}
+
 /** Group image paths into { key -> {label, actor, token, subject} } by monster name. */
 export function groupCustomFiles(paths) {
   const groups = new Map();
   for (const path of paths) {
     const file = decodeURIComponent(String(path).split("/").pop());
     if (!IMAGE.test(file)) continue;
-    const base = file.replace(/\.[^.]+$/, "");
-    const m = base.match(/^(.*?)[-_ ]+(token|subject)$/i);
-    const label = (m ? m[1] : base).replace(/[-_]+/g, " ").trim();
-    const role = m ? m[2].toLowerCase() : "actor";
+    const { label, role } = parseArtFile(file);
     const key = normalizeName(label);
     if (!key) continue;
     const group = groups.get(key) ?? { label };
@@ -63,27 +83,51 @@ export function groupCustomFiles(paths) {
   return groups;
 }
 
-/** A choice built from one of the GM's own images. */
-function customChoice(key) {
-  const g = custom.get(key);
-  if (!g) return null;
-  const token = g.token ?? g.actor;
-  return { module: "custom", label: g.label, actor: g.actor ?? token, token, subject: g.subject ?? null, scale: 1 };
+/** Your art for a monster name: exact name first, then the proper name before a comma. */
+export function findCustomKey(name, groups = custom) {
+  const key = normalizeName(name);
+  if (groups.has(key)) return key;
+  const lead = leadName(name) ?? (key.length >= 4 ? key : null);
+  if (!lead) return null;
+  if (groups.has(lead)) return lead;
+  const hits = [...groups.entries()].filter(([, g]) => leadName(g.label) === lead).map(([k]) => k);
+  return hits.length === 1 ? hits[0] : null;
 }
 
-/** Best available art for a monster name, or null. */
+/**
+ * A choice built from one of the GM's own images. When the chosen art has only a
+ * token or only a portrait, the missing half is filled from the art that matches
+ * the monster's name (fillKey), so a token and portrait with different file names
+ * still pair up.
+ */
+function customChoice(key, fillKey = null) {
+  const g = custom.get(key);
+  if (!g) return null;
+  const f = fillKey && fillKey !== key ? custom.get(fillKey) : null;
+  const actor = g.actor ?? f?.actor ?? null;
+  const token = g.token ?? f?.token ?? actor;
+  return { module: "custom", label: g.label, actor: actor ?? token, token, subject: g.subject ?? f?.subject ?? null, scale: 1 };
+}
+
+/**
+ * Best available art for a monster name, or null. Order: your art picked for this
+ * monster on the review page, then your art matched by name, then Pathfinder art
+ * from the first token module that's installed.
+ */
 export function pickChoice(entry, name) {
-  if (setting("preferCustom") !== false) {
-    const own = customChoice(normalizeName(name));
+  const choices = entry?.choices ?? [];
+  for (const choice of choices) {
+    if (choice.module !== "custom") continue;
+    const own = customChoice(choice.key, findCustomKey(name));
     if (own) return own;
   }
-  for (const choice of entry?.choices ?? []) {
-    if (choice.module === "custom") {
-      const own = customChoice(choice.key);
-      if (own) return own;
-    } else if (moduleActive(choice.module)) {
-      return choice;
-    }
+  if (setting("preferCustom") !== false) {
+    const key = findCustomKey(name);
+    const own = key && customChoice(key);
+    if (own) return own;
+  }
+  for (const choice of choices) {
+    if (choice.module !== "custom" && moduleActive(choice.module)) return choice;
   }
   return null;
 }

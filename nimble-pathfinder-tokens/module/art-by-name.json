@@ -554,6 +554,10 @@
   "name": "Bandit Fire Mage",
   "choices": [
    {
+    "module": "custom",
+    "key": "banditfiremage"
+   },
+   {
     "module": "pf2e-tokens-npc-core",
     "label": "Demolitionist",
     "actor": "modules/pf2e-tokens-npc-core/assets/portraits/demolitionist.webp",
@@ -611,6 +615,10 @@
  "banditicemage": {
   "name": "Bandit Ice Mage",
   "choices": [
+   {
+    "module": "custom",
+    "key": "banditicemage"
+   },
    {
     "module": "pf2e-tokens-npc-core",
     "label": "Watchmage",
@@ -740,6 +748,14 @@
  "berserker": {
   "name": "Berserker",
   "choices": [
+   {
+    "module": "pf2e-tokens-npc-core",
+    "label": "Siegebreaker",
+    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/siegebreaker.webp",
+    "token": "modules/pf2e-tokens-npc-core/assets/tokens/siegebreaker.webp",
+    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/siegebreaker.webp",
+    "scale": 2
+   },
    {
     "module": "pf2e-tokens-npc-core",
     "label": "Warmonger",
@@ -1027,6 +1043,10 @@
  "bookmimic": {
   "name": "Book Mimic",
   "choices": [
+   {
+    "module": "custom",
+    "key": "bookmimic"
+   },
    {
     "module": "pf2e-tokens-monster-core-2",
     "label": "Mimic",
@@ -1467,19 +1487,19 @@
   "name": "Carrion Worm",
   "choices": [
    {
-    "module": "pf2e-tokens-bestiaries",
-    "label": "Giant Whiptail Centipede",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/invertebrate/whiptail-centipede-giant.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/invertebrate/whiptail-centipede-giant.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/invertebrate/whiptail-centipede-giant.webp",
-    "scale": 1
-   },
-   {
     "module": "pf2e-tokens-monster-core",
     "label": "Cave Worm",
     "actor": "modules/pf2e-tokens-monster-core/assets/portraits/cave-worm.webp",
     "token": "modules/pf2e-tokens-monster-core/assets/tokens/cave-worm.webp",
     "subject": "modules/pf2e-tokens-monster-core/assets/subjects/cave-worm.webp",
+    "scale": 1
+   },
+   {
+    "module": "pf2e-tokens-bestiaries",
+    "label": "Giant Whiptail Centipede",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/invertebrate/whiptail-centipede-giant.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/invertebrate/whiptail-centipede-giant.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/invertebrate/whiptail-centipede-giant.webp",
     "scale": 1
    },
    {
@@ -2637,6 +2657,10 @@
   "name": "Door Mimic",
   "choices": [
    {
+    "module": "custom",
+    "key": "doormimic"
+   },
+   {
     "module": "pf2e-tokens-monster-core-2",
     "label": "Mimic",
     "actor": "modules/pf2e-tokens-monster-core-2/assets/art/mimic.webp",
@@ -2723,6 +2747,10 @@
  "dregathathricechinned": {
   "name": "Dregatha, Thrice-Chinned",
   "choices": [
+   {
+    "module": "custom",
+    "key": "threechinnedhagironrimmed"
+   },
    {
     "module": "pf2e-tokens-bestiaries",
     "label": "Annis Hag",
@@ -3315,6 +3343,14 @@
   "choices": [
    {
     "module": "pf2e-tokens-bestiaries",
+    "label": "Pixie",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/fey/fairy/pixie.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/fey/fairy/pixie.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/fey/fairy/pixie.webp",
+    "scale": 1.2
+   },
+   {
+    "module": "pf2e-tokens-bestiaries",
     "label": "Melixie",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/fey/fairy/melixie.webp",
     "token": "modules/pf2e-tokens-bestiaries/tokens/fey/fairy/melixie.webp",
@@ -3373,18 +3409,18 @@
   "choices": [
    {
     "module": "pf2e-tokens-bestiaries",
-    "label": "Grig",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/fey/fairy/grig.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/fey/fairy/grig.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/fey/fairy/grig.webp",
-    "scale": 1.5
-   },
-   {
-    "module": "pf2e-tokens-bestiaries",
     "label": "Lyrakien",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/divine/azata/lyrakien.webp",
     "token": "modules/pf2e-tokens-bestiaries/tokens/divine/azata/lyrakien.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/divine/azata/lyrakien.webp",
+    "scale": 1.5
+   },
+   {
+    "module": "pf2e-tokens-bestiaries",
+    "label": "Grig",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/fey/fairy/grig.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/fey/fairy/grig.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/fey/fairy/grig.webp",
     "scale": 1.5
    },
    {
@@ -3402,6 +3438,14 @@
   "choices": [
    {
     "module": "pf2e-tokens-npc-core",
+    "label": "Cult Leader",
+    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/cult-leader.webp",
+    "token": "modules/pf2e-tokens-npc-core/assets/tokens/cult-leader.webp",
+    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/cult-leader.webp",
+    "scale": 2
+   },
+   {
+    "module": "pf2e-tokens-npc-core",
     "label": "Zealot of Asmodeus",
     "actor": "modules/pf2e-tokens-npc-core/assets/portraits/zealot-of-asmodeus.webp",
     "token": "modules/pf2e-tokens-npc-core/assets/tokens/zealot-of-asmodeus.webp",
@@ -3415,14 +3459,6 @@
     "token": "modules/pf2e-tokens-bestiaries/tokens/undead/ghostly/abandoned-zealot.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/undead/ghostly/abandoned-zealot.webp",
     "scale": 1
-   },
-   {
-    "module": "pf2e-tokens-npc-core",
-    "label": "Cult Leader",
-    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/cult-leader.webp",
-    "token": "modules/pf2e-tokens-npc-core/assets/tokens/cult-leader.webp",
-    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/cult-leader.webp",
-    "scale": 2
    }
   ]
  },
@@ -4746,6 +4782,14 @@
   "name": "Gremlin Roastmaster",
   "choices": [
    {
+    "module": "pf2e-tokens-monster-core",
+    "label": "Mitflit",
+    "actor": "modules/pf2e-tokens-monster-core/assets/portraits/gremlin-mitflit.webp",
+    "token": "modules/pf2e-tokens-monster-core/assets/tokens/gremlin-mitflit.webp",
+    "subject": "modules/pf2e-tokens-monster-core/assets/subjects/gremlin-mitflit.webp",
+    "scale": 1
+   },
+   {
     "module": "pf2e-tokens-bestiaries",
     "label": "Vexgit",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/fey/gremlin/vexgit.webp",
@@ -4759,14 +4803,6 @@
     "actor": "modules/pf2e-tokens-bestiaries/portraits/fey/gremlin/jinkin.webp",
     "token": "modules/pf2e-tokens-bestiaries/tokens/fey/gremlin/jinkin.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/fey/gremlin/jinkin.webp",
-    "scale": 1
-   },
-   {
-    "module": "pf2e-tokens-monster-core",
-    "label": "Mitflit",
-    "actor": "modules/pf2e-tokens-monster-core/assets/portraits/gremlin-mitflit.webp",
-    "token": "modules/pf2e-tokens-monster-core/assets/tokens/gremlin-mitflit.webp",
-    "subject": "modules/pf2e-tokens-monster-core/assets/subjects/gremlin-mitflit.webp",
     "scale": 1
    }
   ]
@@ -6723,18 +6759,18 @@
   "choices": [
    {
     "module": "pf2e-tokens-bestiaries",
-    "label": "Giant Mantis",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/invertebrate/mantis-giant.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/invertebrate/mantis-giant.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/invertebrate/mantis-giant.webp",
-    "scale": 1
-   },
-   {
-    "module": "pf2e-tokens-bestiaries",
     "label": "Deadly Mantis",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/invertebrate/deadly-mantis.webp",
     "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/invertebrate/deadly-mantis.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/invertebrate/deadly-mantis.webp",
+    "scale": 1
+   },
+   {
+    "module": "pf2e-tokens-bestiaries",
+    "label": "Giant Mantis",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/invertebrate/mantis-giant.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/invertebrate/mantis-giant.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/invertebrate/mantis-giant.webp",
     "scale": 1
    },
    {
@@ -7683,6 +7719,14 @@
   "name": "Pinky",
   "choices": [
    {
+    "module": "pf2e-tokens-npc-core",
+    "label": "Goblin Chef",
+    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/goblin-chef.webp",
+    "token": "modules/pf2e-tokens-npc-core/assets/tokens/goblin-chef.webp",
+    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/goblin-chef.webp",
+    "scale": 2
+   },
+   {
     "module": "pf2e-tokens-monster-core",
     "label": "Bugbear Prowler",
     "actor": "modules/pf2e-tokens-monster-core/assets/portraits/bugbear-prowler.webp",
@@ -8351,6 +8395,14 @@
   "choices": [
    {
     "module": "pf2e-tokens-bestiaries",
+    "label": "Giant Stag Beetle",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/invertebrate/stag-beetle-giant.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/invertebrate/stag-beetle-giant.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/invertebrate/stag-beetle-giant.webp",
+    "scale": 1
+   },
+   {
+    "module": "pf2e-tokens-bestiaries",
     "label": "Ankhrav",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/invertebrate/ankhrav.webp",
     "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/invertebrate/ankhrav.webp",
@@ -8363,14 +8415,6 @@
     "actor": "modules/pf2e-tokens-monster-core/assets/portraits/ankhrav.webp",
     "token": "modules/pf2e-tokens-monster-core/assets/tokens/ankhrav.webp",
     "subject": "modules/pf2e-tokens-monster-core/assets/subjects/ankhrav.webp",
-    "scale": 1
-   },
-   {
-    "module": "pf2e-tokens-bestiaries",
-    "label": "Giant Stag Beetle",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/invertebrate/stag-beetle-giant.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/invertebrate/stag-beetle-giant.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/invertebrate/stag-beetle-giant.webp",
     "scale": 1
    }
   ]
@@ -9008,20 +9052,20 @@
   "name": "Snake Swarm",
   "choices": [
    {
-    "module": "pf2e-tokens-bestiaries",
-    "label": "Rat Snake Swarm",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/reptilian/rat-snake-swarm.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/reptilian/rat-snake-swarm.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/reptilian/rat-snake-swarm.webp",
-    "scale": 1
-   },
-   {
     "module": "pf2e-tokens-monster-core-2",
     "label": "Viper Swarm",
     "actor": "modules/pf2e-tokens-monster-core-2/assets/art/snake-viper-swarm.webp",
     "token": "modules/pf2e-tokens-monster-core-2/assets/tokens/snake-viper-swarm.webp",
     "subject": "modules/pf2e-tokens-monster-core-2/assets/subjects/snake-viper-swarm.webp",
     "scale": 2
+   },
+   {
+    "module": "pf2e-tokens-bestiaries",
+    "label": "Rat Snake Swarm",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/reptilian/rat-snake-swarm.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/reptilian/rat-snake-swarm.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/reptilian/rat-snake-swarm.webp",
+    "scale": 1
    },
    {
     "module": "pf2e-tokens-bestiaries",
@@ -9266,6 +9310,14 @@
   "name": "Spring Golem",
   "choices": [
    {
+    "module": "pf2e-tokens-bestiaries",
+    "label": "Awakened Tree",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/plant/arboreal/awakened-tree.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/plant/arboreal/awakened-tree.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/plant/arboreal/awakened-tree.webp",
+    "scale": 1.5
+   },
+   {
     "module": "pf2e-tokens-monster-core-2",
     "label": "Hippopotamus Topiary",
     "actor": "modules/pf2e-tokens-monster-core-2/assets/art/living-topiary-hippo.webp",
@@ -9438,18 +9490,18 @@
   "choices": [
    {
     "module": "pf2e-tokens-npc-core",
-    "label": "Tempest Incarnate",
-    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/tempest-incarnate.webp",
-    "token": "modules/pf2e-tokens-npc-core/assets/tokens/tempest-incarnate.webp",
-    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/tempest-incarnate.webp",
-    "scale": 2
-   },
-   {
-    "module": "pf2e-tokens-npc-core",
     "label": "Skin Shifter",
     "actor": "modules/pf2e-tokens-npc-core/assets/portraits/skin-shifter.webp",
     "token": "modules/pf2e-tokens-npc-core/assets/tokens/skin-shifter.webp",
     "subject": "modules/pf2e-tokens-npc-core/assets/subjects/skin-shifter.webp",
+    "scale": 2
+   },
+   {
+    "module": "pf2e-tokens-npc-core",
+    "label": "Tempest Incarnate",
+    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/tempest-incarnate.webp",
+    "token": "modules/pf2e-tokens-npc-core/assets/tokens/tempest-incarnate.webp",
+    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/tempest-incarnate.webp",
     "scale": 2
    },
    {
@@ -10810,6 +10862,14 @@
   "name": "Wondrous Dryad",
   "choices": [
    {
+    "module": "pf2e-tokens-monster-core",
+    "label": "Dryad",
+    "actor": "modules/pf2e-tokens-monster-core/assets/portraits/nymph-dryad.webp",
+    "token": "modules/pf2e-tokens-monster-core/assets/tokens/nymph-dryad.webp",
+    "subject": "modules/pf2e-tokens-monster-core/assets/subjects/nymph-dryad.webp",
+    "scale": 1
+   },
+   {
     "module": "pf2e-tokens-bestiaries",
     "label": "Green Man",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/plant/leshy/green-man.webp",
@@ -10982,18 +11042,18 @@
   "choices": [
    {
     "module": "pf2e-tokens-npc-core",
-    "label": "Mixed Martial Artist",
-    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/mixed-martial-artist.webp",
-    "token": "modules/pf2e-tokens-npc-core/assets/tokens/mixed-martial-artist.webp",
-    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/mixed-martial-artist.webp",
-    "scale": 2
-   },
-   {
-    "module": "pf2e-tokens-npc-core",
     "label": "Black Belt",
     "actor": "modules/pf2e-tokens-npc-core/assets/portraits/black-belt.webp",
     "token": "modules/pf2e-tokens-npc-core/assets/tokens/black-belt.webp",
     "subject": "modules/pf2e-tokens-npc-core/assets/subjects/black-belt.webp",
+    "scale": 2
+   },
+   {
+    "module": "pf2e-tokens-npc-core",
+    "label": "Mixed Martial Artist",
+    "actor": "modules/pf2e-tokens-npc-core/assets/portraits/mixed-martial-artist.webp",
+    "token": "modules/pf2e-tokens-npc-core/assets/tokens/mixed-martial-artist.webp",
+    "subject": "modules/pf2e-tokens-npc-core/assets/subjects/mixed-martial-artist.webp",
     "scale": 2
    },
    {

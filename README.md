@@ -14,11 +14,11 @@ In simple words, it allows you to use your monster tokens from Paizo with Nimble
 
 Put your own monster art in a folder in Foundry's user data, `custom-tokens` by default (the same level as `modules` and `worlds`). Name each file after the monster:
 
-* `Goblin Ratrider.png`: portrait (actor image)
-* `Goblin Ratrider-token.png`: token image. If there's no token file, the portrait is used for the token too.
-* `Goblin Ratrider-subject.png` (optional): a cutout for Foundry's token ring. Without it, the token is used as is and the ring is turned off.
+* `Book Mimic-1.png`: portrait (actor image)
+* `Book Mimic token-2.png`: token image. If there's no token file, the portrait is used for the token too.
+* `Book Mimic subject.png` (optional): a cutout for Foundry's token ring. Without it, the token is used as is and the ring is turned off.
 
-Case, spaces, hyphens and punctuation don't matter, so `Goblin-rat-rider.png` matches "Goblin Ratrider". Your art is used ahead of Pathfinder art, and it also works for Nexus monsters that have no Pathfinder art at all. One level of subfolders is read too. New files are picked up when Foundry reloads, or straight away with `game.modules.get("nimble-pathfinder-tokens").api.reloadCustomArt()`.
+Case, spaces, hyphens, punctuation and numbers at the end (`-1`, `-2`) don't matter, so `Goblin-rat-rider.png` matches "Goblin Ratrider". For a name with a comma, the part before it is enough: `Dregatha, the Thrice-Chinned Hag-1.png` matches "Dregatha, Thrice-Chinned". Your art is used ahead of Pathfinder art, and it also works for Nexus monsters that have no Pathfinder art at all. One level of subfolders is read too. New files are picked up when Foundry reloads, or straight away with `game.modules.get("nimble-pathfinder-tokens").api.reloadCustomArt()`.
 
 ## Settings
 
