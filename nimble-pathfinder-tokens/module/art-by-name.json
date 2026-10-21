@@ -235,6 +235,14 @@
   "name": "Animated Sword",
   "choices": [
    {
+    "module": "pf2e-tokens-bestiaries",
+    "label": "Animated Broom",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/constructed/magical/animated-broom.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/constructed/magical/animated-broom.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/constructed/magical/animated-broom.webp",
+    "scale": 1
+   },
+   {
     "module": "pf2e-tokens-monster-core-2",
     "label": "Swordkeeper",
     "actor": "modules/pf2e-tokens-monster-core-2/assets/art/swordkeeper.webp",
@@ -249,14 +257,6 @@
     "token": "modules/pf2e-tokens-bestiaries/tokens/constructed/magical/swordkeeper.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/constructed/magical/swordkeeper.webp",
     "scale": 2
-   },
-   {
-    "module": "pf2e-tokens-bestiaries",
-    "label": "Animated Broom",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/constructed/magical/animated-broom.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/constructed/magical/animated-broom.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/constructed/magical/animated-broom.webp",
-    "scale": 1
    }
   ]
  },
@@ -2897,20 +2897,20 @@
   "name": "Drow Scout",
   "choices": [
    {
-    "module": "pf2e-tokens-monster-core",
-    "label": "Elf Ranger",
-    "actor": "modules/pf2e-tokens-monster-core/assets/portraits/elf-ranger.webp",
-    "token": "modules/pf2e-tokens-monster-core/assets/tokens/elf-ranger.webp",
-    "subject": "modules/pf2e-tokens-monster-core/assets/subjects/elf-ranger.webp",
-    "scale": 2
-   },
-   {
     "module": "pf2e-tokens-bestiaries",
     "label": "Elf Rogue",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/humanoid/darklands/drow-rogue.webp",
     "token": "modules/pf2e-tokens-bestiaries/tokens/humanoid/darklands/drow-rogue.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/humanoid/darklands/drow-rogue.webp",
     "scale": 1
+   },
+   {
+    "module": "pf2e-tokens-monster-core",
+    "label": "Elf Ranger",
+    "actor": "modules/pf2e-tokens-monster-core/assets/portraits/elf-ranger.webp",
+    "token": "modules/pf2e-tokens-monster-core/assets/tokens/elf-ranger.webp",
+    "subject": "modules/pf2e-tokens-monster-core/assets/subjects/elf-ranger.webp",
+    "scale": 2
    },
    {
     "module": "pf2e-tokens-bestiaries",
@@ -3155,19 +3155,19 @@
   "name": "Elemental Spark",
   "choices": [
    {
-    "module": "pf2e-tokens-monster-core-2",
-    "label": "Spark Moth",
-    "actor": "modules/pf2e-tokens-monster-core-2/assets/art/elemental-air-spark-moth.webp",
-    "token": "modules/pf2e-tokens-monster-core-2/assets/tokens/elemental-air-spark-moth.webp",
-    "subject": "modules/pf2e-tokens-monster-core-2/assets/subjects/elemental-air-spark-moth.webp",
-    "scale": 2
-   },
-   {
     "module": "pf2e-tokens-bestiaries",
     "label": "Spark Bat",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/elemental/air/spark-bat.webp",
     "token": "modules/pf2e-tokens-bestiaries/tokens/elemental/air/spark-bat.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/elemental/air/spark-bat.webp",
+    "scale": 2
+   },
+   {
+    "module": "pf2e-tokens-monster-core-2",
+    "label": "Spark Moth",
+    "actor": "modules/pf2e-tokens-monster-core-2/assets/art/elemental-air-spark-moth.webp",
+    "token": "modules/pf2e-tokens-monster-core-2/assets/tokens/elemental-air-spark-moth.webp",
+    "subject": "modules/pf2e-tokens-monster-core-2/assets/subjects/elemental-air-spark-moth.webp",
     "scale": 2
    },
    {
@@ -5114,6 +5114,14 @@
   "name": "Harpy Matriarch",
   "choices": [
    {
+    "module": "pf2e-tokens-bestiaries",
+    "label": "Harpy",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/humanoid/hybrid/harpy.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/humanoid/hybrid/harpy.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/humanoid/hybrid/harpy.webp",
+    "scale": 1.5
+   },
+   {
     "module": "pf2e-tokens-monster-core",
     "label": "Harpy",
     "actor": "modules/pf2e-tokens-monster-core/assets/portraits/harpy.webp",
@@ -5128,14 +5136,6 @@
     "token": "modules/pf2e-tokens-bestiaries/tokens/humanoid/stheno-harpist.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/humanoid/stheno-harpist.webp",
     "scale": 1
-   },
-   {
-    "module": "pf2e-tokens-bestiaries",
-    "label": "Harpy",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/humanoid/hybrid/harpy.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/humanoid/hybrid/harpy.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/humanoid/hybrid/harpy.webp",
-    "scale": 1.5
    }
   ]
  },
@@ -5679,18 +5679,18 @@
   "choices": [
    {
     "module": "pf2e-tokens-bestiaries",
-    "label": "Ringhorn Ram",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/mammalian/ringhorn-ram.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/ringhorn-ram.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/mammalian/ringhorn-ram.webp",
-    "scale": 1
-   },
-   {
-    "module": "pf2e-tokens-bestiaries",
     "label": "Rosethorn Ram",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/mammalian/rosethorn-ram.webp",
     "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/rosethorn-ram.webp",
     "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/mammalian/rosethorn-ram.webp",
+    "scale": 1
+   },
+   {
+    "module": "pf2e-tokens-bestiaries",
+    "label": "Ringhorn Ram",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/mammalian/ringhorn-ram.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/ringhorn-ram.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/bestial/mammalian/ringhorn-ram.webp",
     "scale": 1
    },
    {
@@ -7844,6 +7844,14 @@
   "choices": [
    {
     "module": "pf2e-tokens-bestiaries",
+    "label": "Animated Armor",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/constructed/magical/animated-armor.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/constructed/magical/animated-armor.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/constructed/magical/animated-armor.webp",
+    "scale": 1.5
+   },
+   {
+    "module": "pf2e-tokens-bestiaries",
     "label": "Phantom Knight",
     "actor": "modules/pf2e-tokens-bestiaries/portraits/undead/ghostly/phantom-knight.webp",
     "token": "modules/pf2e-tokens-bestiaries/tokens/undead/ghostly/phantom-knight.webp",
@@ -7857,14 +7865,6 @@
     "token": "modules/pf2e-tokens-monster-core/assets/tokens/phantom-knight.webp",
     "subject": "modules/pf2e-tokens-monster-core/assets/subjects/phantom-knight.webp",
     "scale": 2
-   },
-   {
-    "module": "pf2e-tokens-bestiaries",
-    "label": "Animated Armor",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/constructed/magical/animated-armor.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/constructed/magical/animated-armor.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/constructed/magical/animated-armor.webp",
-    "scale": 1.5
    }
   ]
  },
@@ -8943,18 +8943,18 @@
   "choices": [
    {
     "module": "pf2e-tokens-monster-core",
-    "label": "Stone Bulwark",
-    "actor": "modules/pf2e-tokens-monster-core/assets/portraits/stone-bulwark.webp",
-    "token": "modules/pf2e-tokens-monster-core/assets/tokens/stone-bulwark.webp",
-    "subject": "modules/pf2e-tokens-monster-core/assets/subjects/stone-bulwark.webp",
-    "scale": 1
-   },
-   {
-    "module": "pf2e-tokens-monster-core",
     "label": "Iron Warden",
     "actor": "modules/pf2e-tokens-monster-core/assets/portraits/iron-warden.webp",
     "token": "modules/pf2e-tokens-monster-core/assets/tokens/iron-warden.webp",
     "subject": "modules/pf2e-tokens-monster-core/assets/subjects/iron-warden.webp",
+    "scale": 1
+   },
+   {
+    "module": "pf2e-tokens-monster-core",
+    "label": "Stone Bulwark",
+    "actor": "modules/pf2e-tokens-monster-core/assets/portraits/stone-bulwark.webp",
+    "token": "modules/pf2e-tokens-monster-core/assets/tokens/stone-bulwark.webp",
+    "subject": "modules/pf2e-tokens-monster-core/assets/subjects/stone-bulwark.webp",
     "scale": 1
    },
    {
@@ -9937,20 +9937,20 @@
   "name": "Troglodyte Champion",
   "choices": [
    {
-    "module": "pf2e-tokens-bestiaries",
-    "label": "Xulgath Leader",
-    "actor": "modules/pf2e-tokens-bestiaries/portraits/humanoid/darklands/xulgath-leader.webp",
-    "token": "modules/pf2e-tokens-bestiaries/tokens/humanoid/darklands/xulgath-leader.webp",
-    "subject": "modules/pf2e-tokens-bestiaries/subjects/humanoid/darklands/xulgath-leader.webp",
-    "scale": 1.5
-   },
-   {
     "module": "pf2e-tokens-monster-core",
     "label": "Xulgath Leader",
     "actor": "modules/pf2e-tokens-monster-core/assets/portraits/xulgath-leader.webp",
     "token": "modules/pf2e-tokens-monster-core/assets/tokens/xulgath-leader.webp",
     "subject": "modules/pf2e-tokens-monster-core/assets/subjects/xulgath-leader.webp",
     "scale": 1
+   },
+   {
+    "module": "pf2e-tokens-bestiaries",
+    "label": "Xulgath Leader",
+    "actor": "modules/pf2e-tokens-bestiaries/portraits/humanoid/darklands/xulgath-leader.webp",
+    "token": "modules/pf2e-tokens-bestiaries/tokens/humanoid/darklands/xulgath-leader.webp",
+    "subject": "modules/pf2e-tokens-bestiaries/subjects/humanoid/darklands/xulgath-leader.webp",
+    "scale": 1.5
    },
    {
     "module": "pf2e-tokens-bestiaries",
