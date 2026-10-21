@@ -12,22 +12,15 @@ In simple words, it allows you to use your monster tokens from Paizo with Nimble
 
 ## Your own art
 
-Put your own monster art in a folder in Foundry's user data, `custom-tokens` by default (the same level as `modules` and `worlds`). Name each file after the monster:
+Custom monster art ships inside this module, in its `art` folder, so there's nothing extra to copy. It is used ahead of Pathfinder art, including for Nimble Nexus monsters with no Pathfinder art at all, and the Nimble compendium entries for those monsters use it too. `module/custom-art.json` lists which images belong to which monster.
+
+To try new art before it's built into the module, put the files in a folder in Foundry's user data and name that folder in the **Extra art folder** setting. Name each file after the monster:
 
 * `Book Mimic-1.png`: portrait (actor image)
 * `Book Mimic token-2.png`: token image. If there's no token file, the portrait is used for the token too.
 * `Book Mimic subject.png` (optional): a cutout for Foundry's token ring. Without it, the token is used as is and the ring is turned off.
 
-Case, spaces, hyphens, punctuation and numbers at the end (`-1`, `-2`) don't matter, so `Goblin-rat-rider.png` matches "Goblin Ratrider". For a name with a comma, the part before it is enough: `Dregatha, the Thrice-Chinned Hag-1.png` matches "Dregatha, Thrice-Chinned". Your art is used ahead of Pathfinder art, and it also works for Nexus monsters that have no Pathfinder art at all. One level of subfolders is read too. New files are picked up when Foundry reloads, or straight away with `game.modules.get("nimble-pathfinder-tokens").api.reloadCustomArt()`.
-
-## Settings
-
-* **Apply art to new monsters** (on by default)
-* **Your art folder** (`custom-tokens` by default; leave empty to turn it off)
-* **Use your art first** (on by default)
-* **Apply art to monsters placed on scenes** (on by default)
-* **Replace Nimble's built-in monster art** (on by default)
-* **Replace art that comes from Nimble Nexus** (off by default)
+Case, spaces, hyphens, punctuation and numbers at the end (`-1`, `-2`) don't matter, singular and plural match each other ("Cerebral Hulk" art is used for "Cerebral Hulks"), and for a name with a comma the part before it is enough (`Dregatha, the Thrice-Chinned Hag-1.png` matches "Dregatha, Thrice-Chinned"). Files in the extra folder win over bundled art for the same monster. Reload Foundry, or run `game.modules.get("nimble-pathfinder-tokens").api.reloadCustomArt()`, to pick up new files.
 
 ## Scenes and adventures
 

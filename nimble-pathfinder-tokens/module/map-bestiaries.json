@@ -1063,20 +1063,16 @@
       }
     },
     "SM6NlZaQdKqFN2AD": {
-      "actor": "modules/pf2e-tokens-bestiaries/portraits/bestial/mammalian/rat-giant.webp",
+      "actor": "modules/nimble-pathfinder-tokens/art/goblinratrider.webp",
       "token": {
         "randomImg": false,
         "texture": {
-          "src": "modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/rat-giant.webp",
+          "src": "modules/nimble-pathfinder-tokens/art/goblinratrider-token.webp",
           "scaleX": 1,
           "scaleY": 1
         },
         "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-tokens-bestiaries/subjects/bestial/mammalian/rat-giant.webp",
-            "scale": 1
-          }
+          "enabled": false
         }
       }
     },
@@ -1641,20 +1637,16 @@
       }
     },
     "svHoUz8vIun3j9tI": {
-      "actor": "modules/pf2e-tokens-bestiaries/portraits/humanoid/hag/annis-hag.webp",
+      "actor": "modules/nimble-pathfinder-tokens/art/dregathathethricechinnedhag.webp",
       "token": {
         "randomImg": false,
         "texture": {
-          "src": "modules/pf2e-tokens-bestiaries/tokens/humanoid/hag/annis-hag.webp",
+          "src": "modules/nimble-pathfinder-tokens/art/threechinnedhagironrimmed-token.webp",
           "scaleX": 1,
           "scaleY": 1
         },
         "ring": {
-          "enabled": true,
-          "subject": {
-            "texture": "modules/pf2e-tokens-bestiaries/subjects/humanoid/hag/annis-hag.webp",
-            "scale": 1
-          }
+          "enabled": false
         }
       }
     },

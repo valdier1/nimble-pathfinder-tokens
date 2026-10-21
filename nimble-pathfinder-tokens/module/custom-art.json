@@ -1,0 +1,55 @@
+{
+ "banditfiremage": {
+  "label": "Bandit Fire Mage",
+  "token": "modules/nimble-pathfinder-tokens/art/banditfiremage-token.webp",
+  "actor": "modules/nimble-pathfinder-tokens/art/banditfiremage.webp"
+ },
+ "banditicemage": {
+  "label": "Bandit Ice Mage",
+  "token": "modules/nimble-pathfinder-tokens/art/banditicemage-token.webp",
+  "actor": "modules/nimble-pathfinder-tokens/art/banditicemage.webp"
+ },
+ "bookmimic": {
+  "label": "Book Mimic",
+  "actor": "modules/nimble-pathfinder-tokens/art/bookmimic.webp",
+  "token": "modules/nimble-pathfinder-tokens/art/bookmimic-token.webp"
+ },
+ "cerebralhulk": {
+  "label": "Cerebral Hulk",
+  "token": "modules/nimble-pathfinder-tokens/art/cerebralhulk-token.webp",
+  "actor": "modules/nimble-pathfinder-tokens/art/cerebralhulk.webp"
+ },
+ "colossalorcattheruinedgate": {
+  "label": "Colossal orc at the ruined gate",
+  "token": "modules/nimble-pathfinder-tokens/art/colossalorcattheruinedgate-token.webp",
+  "actor": "modules/nimble-pathfinder-tokens/art/colossalorcattheruinedgate.webp"
+ },
+ "doormimic": {
+  "label": "Door Mimic",
+  "token": "modules/nimble-pathfinder-tokens/art/doormimic-token.webp",
+  "actor": "modules/nimble-pathfinder-tokens/art/doormimic.webp"
+ },
+ "dregathathethricechinnedhag": {
+  "label": "Dregatha, the Thrice Chinned Hag",
+  "actor": "modules/nimble-pathfinder-tokens/art/dregathathethricechinnedhag.webp"
+ },
+ "goblinratrider": {
+  "label": "Goblin rat rider",
+  "token": "modules/nimble-pathfinder-tokens/art/goblinratrider-token.webp",
+  "actor": "modules/nimble-pathfinder-tokens/art/goblinratrider.webp"
+ },
+ "livingglacier": {
+  "label": "living glacier",
+  "token": "modules/nimble-pathfinder-tokens/art/livingglacier-token.webp",
+  "actor": "modules/nimble-pathfinder-tokens/art/livingglacier.webp"
+ },
+ "psionicdespot": {
+  "label": "Psionic Despot",
+  "token": "modules/nimble-pathfinder-tokens/art/psionicdespot-token.webp",
+  "actor": "modules/nimble-pathfinder-tokens/art/psionicdespot.webp"
+ },
+ "threechinnedhagironrimmed": {
+  "label": "Three chinned hag iron rimmed",
+  "token": "modules/nimble-pathfinder-tokens/art/threechinnedhagironrimmed-token.webp"
+ }
+}

@@ -42,7 +42,7 @@ function moduleActive(id) {
 }
 
 function customFolder() {
-  return String(setting("customFolder") ?? "custom-tokens").trim().replace(/^\/+|\/+$/g, "");
+  return String(setting("customFolder") ?? "").trim().replace(/^\/+|\/+$/g, "");
 }
 
 /**
@@ -87,6 +87,9 @@ export function groupCustomFiles(paths) {
 export function findCustomKey(name, groups = custom) {
   const key = normalizeName(name);
   if (groups.has(key)) return key;
+  // Singular and plural match each other ("Cerebral Hulk" art for "Cerebral Hulks").
+  const other = key.endsWith("s") ? key.slice(0, -1) : `${key}s`;
+  if (key.length >= 4 && groups.has(other)) return other;
   const lead = leadName(name) ?? (key.length >= 4 ? key : null);
   if (!lead) return null;
   if (groups.has(lead)) return lead;
@@ -141,6 +144,7 @@ export function shouldReplace(data, { own = false } = {}) {
 
   if (!img || img === PLACEHOLDER) return true;
   if (folder && img.startsWith(`${folder}/`)) return false; // already the GM's own art
+  if (img.startsWith(`modules/${MODULE_ID}/art/`)) return false; // already art bundled with this module
   if (img.startsWith("icons/")) return true;
   if (img.startsWith(`systems/${systemId}/`)) return setting("replaceNimbleArt") !== false;
   // The GM's own art for a monster always beats art that came from Nexus.
@@ -286,28 +290,40 @@ async function loadTable() {
   return table;
 }
 
-/** List the GM's art folder (and one level of subfolders). */
+/**
+ * Load your art: the images bundled in this module's art folder (listed in
+ * module/custom-art.json), plus anything in the optional extra folder setting.
+ * Extra-folder files win when both have art for the same monster.
+ */
 async function loadCustomArt() {
-  const folder = customFolder();
-  custom = new Map();
-  if (!folder) return custom;
-  const FP = foundry.applications?.apps?.FilePicker?.implementation ?? globalThis.FilePicker;
-  const source = setting("customSource") || "data";
-  const files = [];
-  const queue = [[folder, 0]];
-  while (queue.length) {
-    const [dir, depth] = queue.shift();
-    let result;
-    try { result = await FP.browse(source, dir); }
-    catch (err) {
-      if (depth === 0 && game.user?.isGM) console.info(`${MODULE_ID} | No custom art folder at "${dir}" (${source}).`);
-      continue;
-    }
-    files.push(...(result.files ?? []));
-    if (depth < 1) for (const sub of result.dirs ?? []) queue.push([sub, depth + 1]);
+  const merged = new Map();
+  try {
+    const res = await fetch(`modules/${MODULE_ID}/module/custom-art.json`);
+    if (res.ok) for (const [key, g] of Object.entries(await res.json())) merged.set(key, g);
+  } catch (err) {
+    console.warn(`${MODULE_ID} | Could not load bundled art list`, err);
   }
-  custom = groupCustomFiles(files);
-  if (custom.size) console.info(`${MODULE_ID} | Loaded custom art for ${custom.size} monster${custom.size === 1 ? "" : "s"}.`);
+  const folder = customFolder();
+  if (folder && game.user?.isGM) {
+    const FP = foundry.applications?.apps?.FilePicker?.implementation ?? globalThis.FilePicker;
+    const source = setting("customSource") || "data";
+    const files = [];
+    const queue = [[folder, 0]];
+    while (queue.length) {
+      const [dir, depth] = queue.shift();
+      let result;
+      try { result = await FP.browse(source, dir); }
+      catch (err) {
+        if (depth === 0) console.info(`${MODULE_ID} | No extra art folder at "${dir}" (${source}).`);
+        continue;
+      }
+      files.push(...(result.files ?? []));
+      if (depth < 1) for (const sub of result.dirs ?? []) queue.push([sub, depth + 1]);
+    }
+    for (const [key, g] of groupCustomFiles(files)) merged.set(key, { ...(merged.get(key) ?? {}), ...g });
+  }
+  custom = merged;
+  if (custom.size) console.info(`${MODULE_ID} | Your art is available for ${custom.size} monster${custom.size === 1 ? "" : "s"}.`);
   return custom;
 }
 
@@ -324,9 +340,9 @@ if (typeof Hooks !== "undefined") {
       scope: "world", config: true, type: Boolean, default: true,
     });
     game.settings.register(MODULE_ID, "customFolder", {
-      name: "Your art folder",
-      hint: "Folder in Foundry's user data with your own monster art, named after each monster (Goblin Ratrider.png, Goblin Ratrider-token.png). Leave empty to turn this off.",
-      scope: "world", config: true, type: String, default: "custom-tokens",
+      name: "Extra art folder (optional)",
+      hint: "Your art already ships inside this module. To try new art without rebuilding the module, name a folder in Foundry's user data here (files named after each monster, e.g. Goblin Ratrider.png and Goblin Ratrider token.png). Leave empty if you don't need it.",
+      scope: "world", config: true, type: String, default: "",
       onChange: () => loadCustomArt(),
     });
     game.settings.register(MODULE_ID, "preferCustom", {
@@ -359,4 +375,6 @@ export const __test = {
   applyArtToScenes,
   setTable: (t) => { table = t; },
   setCustom: (paths) => { custom = groupCustomFiles(paths); },
+  setCustomGroups: (obj) => { custom = new Map(Object.entries(obj)); },
+  loadCustomArt,
 };
