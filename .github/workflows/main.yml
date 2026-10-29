@@ -1,6 +1,6 @@
 name: Release
 
-# Push a tag like v1.2 to publish a release. The workflow sets the module's
+# Publish a GitHub release (or push a tag) named like v1.2. The workflow sets the module's
 # version and download link from the tag, zips the module, and attaches both
 # module.json and the zip to a GitHub release. Foundry installs from:
 #   https://github.com/<owner>/<repo>/releases/latest/download/module.json
@@ -8,6 +8,8 @@ on:
   push:
     tags:
       - "v*"
+  release:
+    types: [published]
 
 jobs:
   release:
