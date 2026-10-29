@@ -4,6 +4,16 @@ A simple module that maps the tokens from the [Pathfinder Tokens: Bestiaries](ht
 
 In simple words, it allows you to use your monster tokens from Paizo with Nimble.
 
+## Installing
+
+In Foundry, go to **Add-on Modules → Install Module** and paste this into **Manifest URL**:
+
+```
+https://github.com/valdier1/nimble-pathfinder-tokens/releases/latest/download/module.json
+```
+
+You need the Nimble system and Pathfinder Tokens: Bestiaries (commercial). Pathfinder Tokens: NPC Core, Monster Core, Monster Core 2 and Draconic Codex are optional and add more art.
+
 ## What it does
 
 * **Compendium art.** Monsters in Nimble's monster and legendary compendiums show Pathfinder art, using Foundry's compendium art mapping.

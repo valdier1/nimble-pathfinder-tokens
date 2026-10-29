@@ -1,27 +1,43 @@
-name: Release CI
+name: Release
 
+# Push a tag like v1.2 to publish a release. The workflow sets the module's
+# version and download link from the tag, zips the module, and attaches both
+# module.json and the zip to a GitHub release. Foundry installs from:
+#   https://github.com/<owner>/<repo>/releases/latest/download/module.json
 on:
   push:
-    paths:
-      - "CHANGELOG.md"
+    tags:
+      - "v*"
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
-      - name: Create zip file
+      - uses: actions/checkout@v4
+
+      - name: Set version and download link from the tag
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          VERSION="${TAG#v}"
+          DOWNLOAD="https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/nimble-pathfinder-tokens.zip"
+          jq --arg v "$VERSION" --arg d "$DOWNLOAD" '.version = $v | .download = $d' \
+            nimble-pathfinder-tokens/module.json > module.tmp
+          mv module.tmp nimble-pathfinder-tokens/module.json
+          cat nimble-pathfinder-tokens/module.json
+
+      - name: Zip the module
         run: zip -r ./nimble-pathfinder-tokens.zip nimble-pathfinder-tokens
-      - name: Create release
-        id: create_latest_release
+
+      - name: Publish the release
         uses: ncipollo/release-action@v1
         with:
-          allowUpdates: true
-          name: Latest
-          draft: true
+          name: ${{ github.ref_name }}
+          tag: ${{ github.ref_name }}
+          draft: false
           prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
-          artifacts: "nimble-pathfinder-tokens/module.json, nimble-pathfinder-tokens.zip"
-          tag: latest
+          makeLatest: true
+          allowUpdates: true
+          artifacts: "nimble-pathfinder-tokens/module.json,nimble-pathfinder-tokens.zip"
+          bodyFile: CHANGELOG.md

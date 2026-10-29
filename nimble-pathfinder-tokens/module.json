@@ -1,6 +1,7 @@
 {
   "id": "nimble-pathfinder-tokens",
   "title": "Nimble - Pathfinder Tokens",
+  "description": "Maps Pathfinder token art onto Nimble monsters: the Nimble compendiums, and monsters imported from Nimble Nexus as they are created.",
   "version": "1.1",
   "compatibility": {
     "minimum": "13",
@@ -12,8 +13,19 @@
       "email": "javierriveracastro@gmail.com",
       "discord": "javierrivera",
       "flags": {}
+    },
+    {
+      "name": "valdier1",
+      "url": "https://github.com/valdier1",
+      "flags": {}
     }
   ],
+  "url": "https://github.com/valdier1/nimble-pathfinder-tokens",
+  "manifest": "https://github.com/valdier1/nimble-pathfinder-tokens/releases/latest/download/module.json",
+  "download": "https://github.com/valdier1/nimble-pathfinder-tokens/releases/download/v1.1/nimble-pathfinder-tokens.zip",
+  "bugs": "https://github.com/valdier1/nimble-pathfinder-tokens/issues",
+  "readme": "https://github.com/valdier1/nimble-pathfinder-tokens/blob/main/README.md",
+  "changelog": "https://github.com/valdier1/nimble-pathfinder-tokens/blob/main/CHANGELOG.md",
   "flags": {
     "canUpload": true,
     "compendiumArtMappings": {
@@ -69,9 +81,6 @@
       }
     ]
   },
-  "manifest": "https://github.com/javierriveracastro/nimble-pathfinder-tokens/releases/download/latest/module.json",
-  "download": "https://github.com/javierriveracastro/nimble-pathfinder-tokens/releases/download/latest/nimble-pathfinder-tokens.zip",
-  "description": "Maps Pathfinder token art onto Nimble monsters: the Nimble compendiums, and monsters imported from Nimble Nexus as they are created.",
   "esmodules": [
     "scripts/nimble-art.js"
   ]

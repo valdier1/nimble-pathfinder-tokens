@@ -18,11 +18,11 @@ Everything needed to keep the art mapping up to date. The module itself is in
 ## Workflow
 
 1. **Review.** Build the review page and open it in a browser:
-   `python tools/review/build_review.py "C:/Users/valdi/Downloads/tokens"`
+   `python tools/review/build_review.py "C:/Users/you/Downloads/tokens"`
 2. **Record decisions.** Click "Copy my choices", save the text to a file, then:
    `python tools/build/merge_review.py tools/data/reviews/review_4.json`
 3. **Add your art** (if any new): put images in the tokens folder's `custom-tokens/`, then
-   `python tools/build/bundle_art.py "C:/Users/valdi/Downloads/tokens/custom-tokens"`
+   `python tools/build/bundle_art.py "C:/Users/you/Downloads/tokens/custom-tokens"`
    This converts them to WebP in `nimble-pathfinder-tokens/art/` and updates `module/custom-art.json`.
 4. **Build the module data:** `python tools/build/build_module.py tools/data/decisions.json`
    Writes `module/art-by-name.json` and `module/map-bestiaries.json`.
