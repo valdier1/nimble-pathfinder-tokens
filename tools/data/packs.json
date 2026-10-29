@@ -1,0 +1,1046 @@
+{
+ "monsters": [
+  {
+   "id": "r9NnB02qiXpLFrcP",
+   "name": "Bandit",
+   "type": "npc",
+   "folder": "core/bandits",
+   "img": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "tok": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "level": "1/3",
+   "mapped": false
+  },
+  {
+   "id": "9WKy1tqSaiffgo3r",
+   "name": "Bandit Assassin",
+   "type": "npc",
+   "folder": "core/bandits",
+   "img": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "tok": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "level": "2",
+   "mapped": false
+  },
+  {
+   "id": "b4xQqvIabCUfsJDT",
+   "name": "Bandit Bruiser",
+   "type": "npc",
+   "folder": "core/bandits",
+   "img": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "tok": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "level": "2",
+   "mapped": false
+  },
+  {
+   "id": "dteeb6x2NSNbgvqS",
+   "name": "Bandit Captain",
+   "type": "npc",
+   "folder": "core/bandits",
+   "img": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "tok": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "level": "4",
+   "mapped": false
+  },
+  {
+   "id": "ZlCEjSKWexX3OOYz",
+   "name": "Bandit Hunter",
+   "type": "npc",
+   "folder": "core/bandits",
+   "img": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "tok": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "level": "1",
+   "mapped": false
+  },
+  {
+   "id": "DO4C8oN9LxSqK6XG",
+   "name": "Bandit Mage",
+   "type": "npc",
+   "folder": "core/bandits",
+   "img": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "tok": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "level": "4",
+   "mapped": false
+  },
+  {
+   "id": "FOQD0sLrhJiSM9sK",
+   "name": "Bandit Minion",
+   "type": "minion",
+   "folder": "core/bandits",
+   "img": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "tok": "systems/nimble/assets/monsterImages/Bandit.webp",
+   "level": "1/4",
+   "mapped": false
+  },
+  {
+   "id": "Ar9aCw1NbCbFC11U",
+   "name": "Briarbane Acidpod",
+   "type": "npc",
+   "folder": "core/briarbanes",
+   "img": "icons/magic/acid/projectile-faceted-glob.webp",
+   "tok": "icons/magic/acid/projectile-faceted-glob.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "UvgXMSWKrPWqtJgv",
+   "name": "Briarbane Rootbreaker",
+   "type": "npc",
+   "folder": "core/briarbanes",
+   "img": "systems/nimble/assets/monsterImages/Rootbreaker.webp",
+   "tok": "systems/nimble/assets/monsterImages/Rootbreaker.webp",
+   "level": "5",
+   "mapped": true
+  },
+  {
+   "id": "helYUT1m9nYqh4mC",
+   "name": "Briarbane Seedling",
+   "type": "npc",
+   "folder": "core/briarbanes",
+   "img": "icons/magic/nature/tree-elm-roots-brown.webp",
+   "tok": "icons/magic/nature/tree-elm-roots-brown.webp",
+   "level": "1/2",
+   "mapped": true
+  },
+  {
+   "id": "zUR4X7UV37zHrDF2",
+   "name": "Briarbane Tangler",
+   "type": "npc",
+   "folder": "core/briarbanes",
+   "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+   "tok": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+   "level": "2",
+   "mapped": true
+  },
+  {
+   "id": "lDTJWdkMFVOOQVwc",
+   "name": "Briarbane Treant",
+   "type": "npc",
+   "folder": "core/briarbanes",
+   "img": "icons/magic/nature/tree-elm-roots-brown.webp",
+   "tok": "icons/magic/nature/tree-elm-roots-brown.webp",
+   "level": "14",
+   "mapped": true
+  },
+  {
+   "id": "2WAfywOh2jWhIlVy",
+   "name": "Giant Venus Flytrap",
+   "type": "npc",
+   "folder": "core/briarbanes",
+   "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+   "tok": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+   "level": "2",
+   "mapped": false
+  },
+  {
+   "id": "YjKhjwiYoNrrhXfo",
+   "name": "Cultist",
+   "type": "npc",
+   "folder": "core/cultists",
+   "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+   "tok": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "8cTXSC0sZZFE5Vbg",
+   "name": "Doomsayer",
+   "type": "npc",
+   "folder": "core/cultists",
+   "img": "icons/magic/unholy/hand-claw-fire-blue.webp",
+   "tok": "icons/magic/unholy/hand-claw-fire-blue.webp",
+   "level": "5",
+   "mapped": false
+  },
+  {
+   "id": "WJikH84pVBBYkwh0",
+   "name": "Fanatic",
+   "type": "npc",
+   "folder": "core/cultists",
+   "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+   "tok": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+   "level": "3",
+   "mapped": false
+  },
+  {
+   "id": "vrqkmCllLRNFP3wk",
+   "name": "Basilisk",
+   "type": "npc",
+   "folder": "core/forest-denizens",
+   "img": "icons/creatures/reptiles/lizard-iguana-green.webp",
+   "tok": "icons/creatures/reptiles/lizard-iguana-green.webp",
+   "level": "7",
+   "mapped": true
+  },
+  {
+   "id": "WJ24grmX4bHyHcHc",
+   "name": "Druid",
+   "type": "npc",
+   "folder": "core/forest-denizens",
+   "img": "icons/magic/nature/plant-sprout-hand-flower-pink.webp",
+   "tok": "icons/magic/nature/plant-sprout-hand-flower-pink.webp",
+   "level": "8",
+   "mapped": false
+  },
+  {
+   "id": "cQ2wucZ7mz1wXSRR",
+   "name": "Duskprowler",
+   "type": "npc",
+   "folder": "core/forest-denizens",
+   "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+   "tok": "icons/creatures/mammals/wolf-shadow-black.webp",
+   "level": "6",
+   "mapped": true
+  },
+  {
+   "id": "BaDPPV34vXQEle95",
+   "name": "Gnoll",
+   "type": "npc",
+   "folder": "core/gnolls",
+   "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+   "tok": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "DOMYeO9AKKf2tywI",
+   "name": "Gnoll Packleader",
+   "type": "npc",
+   "folder": "core/gnolls",
+   "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+   "tok": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+   "level": "4",
+   "mapped": true
+  },
+  {
+   "id": "yH8XeTPk9s5OMRmX",
+   "name": "Bugbear",
+   "type": "npc",
+   "folder": "core/goblins",
+   "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+   "tok": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+   "level": "2",
+   "mapped": true
+  },
+  {
+   "id": "65v4ZutYxq6hlTog",
+   "name": "Goblin",
+   "type": "npc",
+   "folder": "core/goblins",
+   "img": "systems/nimble/assets/monsterImages/Goblin.webp",
+   "tok": "systems/nimble/assets/monsterImages/Goblin.webp",
+   "level": "1/3",
+   "mapped": true
+  },
+  {
+   "id": "KCZqQUfTuczLNEA3",
+   "name": "Goblin Minion",
+   "type": "minion",
+   "folder": "core/goblins",
+   "img": "systems/nimble/assets/monsterImages/Goblin.webp",
+   "tok": "systems/nimble/assets/monsterImages/Goblin.webp",
+   "level": "1/4",
+   "mapped": true
+  },
+  {
+   "id": "SM6NlZaQdKqFN2AD",
+   "name": "Goblin Ratrider",
+   "type": "npc",
+   "folder": "core/goblins",
+   "img": "icons/creatures/mammals/rodent-rat-green.webp",
+   "tok": "icons/creatures/mammals/rodent-rat-green.webp",
+   "level": "2",
+   "mapped": false
+  },
+  {
+   "id": "XkaTxC6xYSk2kPVV",
+   "name": "Goblin Taskmaster",
+   "type": "npc",
+   "folder": "core/goblins",
+   "img": "systems/nimble/assets/monsterImages/Goblin.webp",
+   "tok": "systems/nimble/assets/monsterImages/Goblin.webp",
+   "level": "2",
+   "mapped": true
+  },
+  {
+   "id": "61FWYH8AiVq2gD9R",
+   "name": "Pinky",
+   "type": "npc",
+   "folder": "core/goblins",
+   "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+   "tok": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+   "level": "2",
+   "mapped": false
+  },
+  {
+   "id": "w9gh6oGZ8508YMAN",
+   "name": "Blue Drake",
+   "type": "npc",
+   "folder": "core/hill-and-field",
+   "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+   "tok": "icons/creatures/reptiles/dragon-horned-blue.webp",
+   "level": "2",
+   "mapped": true
+  },
+  {
+   "id": "w464OFhPTQGwLFZp",
+   "name": "Bulette",
+   "type": "npc",
+   "folder": "core/hill-and-field",
+   "img": "icons/creatures/fish/fish-shark-swimming.webp",
+   "tok": "icons/creatures/fish/fish-shark-swimming.webp",
+   "level": "10",
+   "mapped": true
+  },
+  {
+   "id": "7MDFdUO1qqBTbTsv",
+   "name": "Griffon",
+   "type": "npc",
+   "folder": "core/hill-and-field",
+   "img": "icons/creatures/birds/dove-pigeon-flying-white.webp",
+   "tok": "icons/creatures/birds/dove-pigeon-flying-white.webp",
+   "level": "4",
+   "mapped": true
+  },
+  {
+   "id": "cNbaLrHdwnwnMMmY",
+   "name": "Hill Giant",
+   "type": "npc",
+   "folder": "core/hill-and-field",
+   "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+   "tok": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+   "level": "12",
+   "mapped": true
+  },
+  {
+   "id": "GyeeUOjzK5XBnBzl",
+   "name": "Roc",
+   "type": "npc",
+   "folder": "core/hill-and-field",
+   "img": "icons/creatures/birds/dove-pigeon-flying-white.webp",
+   "tok": "icons/creatures/birds/dove-pigeon-flying-white.webp",
+   "level": "17",
+   "mapped": true
+  },
+  {
+   "id": "3Mjt8kR69rjVizwW",
+   "name": "Troll",
+   "type": "npc",
+   "folder": "core/hill-and-field",
+   "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+   "tok": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+   "level": "10",
+   "mapped": true
+  },
+  {
+   "id": "CnjRxzi5UaRzrObt",
+   "name": "Worg",
+   "type": "npc",
+   "folder": "core/hill-and-field",
+   "img": "icons/creatures/mammals/rabbit-movement-glowing-green.webp",
+   "tok": "icons/creatures/mammals/rabbit-movement-glowing-green.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "nopp2DKrd9uK67B7",
+   "name": "Glabrezu",
+   "type": "npc",
+   "folder": "core/horrors",
+   "img": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "tok": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "level": "14",
+   "mapped": true
+  },
+  {
+   "id": "QiXaRObRw5xxE1VT",
+   "name": "Incubus/Succubus",
+   "type": "npc",
+   "folder": "core/horrors",
+   "img": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "tok": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "level": "4",
+   "mapped": false
+  },
+  {
+   "id": "cr1zy94gxZjzh86o",
+   "name": "Spiny Fiend",
+   "type": "npc",
+   "folder": "core/horrors",
+   "img": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "tok": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "level": "4",
+   "mapped": true
+  },
+  {
+   "id": "rV8kgeKs7wRL55j6",
+   "name": "Stenchling",
+   "type": "npc",
+   "folder": "core/horrors",
+   "img": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "tok": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "level": "1/2",
+   "mapped": true
+  },
+  {
+   "id": "ghL81d1mLAkoSxRm",
+   "name": "Kobold",
+   "type": "npc",
+   "folder": "core/kobolds",
+   "img": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "tok": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "level": "1/3",
+   "mapped": true
+  },
+  {
+   "id": "AH1S3PuQDAlqGd9x",
+   "name": "Kobold Clanger",
+   "type": "npc",
+   "folder": "core/kobolds",
+   "img": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "tok": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "level": "1",
+   "mapped": false
+  },
+  {
+   "id": "uOSIchbGWNXu6pDk",
+   "name": "Kobold Denwarden",
+   "type": "npc",
+   "folder": "core/kobolds",
+   "img": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "tok": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "137WDRxufmgbjx9u",
+   "name": "Kobold Minion",
+   "type": "minion",
+   "folder": "core/kobolds",
+   "img": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "tok": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "level": "1/4",
+   "mapped": true
+  },
+  {
+   "id": "iTOZ7qow3Hh7VsGf",
+   "name": "Kobold Sneak",
+   "type": "npc",
+   "folder": "core/kobolds",
+   "img": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "tok": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "level": "1/2",
+   "mapped": true
+  },
+  {
+   "id": "Di9DjWDN5qAm65sa",
+   "name": "Kobold Trapper",
+   "type": "npc",
+   "folder": "core/kobolds",
+   "img": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "tok": "systems/nimble/assets/monsterImages/Kobold.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "O4ATcECWPMYFbvbh",
+   "name": "Medium Mimic",
+   "type": "npc",
+   "folder": "core/mimics",
+   "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+   "tok": "icons/containers/chest/chest-reinforced-steel-red.webp",
+   "level": "6",
+   "mapped": true
+  },
+  {
+   "id": "f80SumsdADQlLRtY",
+   "name": "Small Mimic",
+   "type": "npc",
+   "folder": "core/mimics",
+   "img": "icons/containers/chest/chest-reinforced-steel-brown.webp",
+   "tok": "icons/containers/chest/chest-reinforced-steel-brown.webp",
+   "level": "2",
+   "mapped": true
+  },
+  {
+   "id": "S99BhlhkUDfuJrdj",
+   "name": "Tiny Mimic",
+   "type": "npc",
+   "folder": "core/mimics",
+   "img": "icons/containers/chest/chest-worn-oak-tan.webp",
+   "tok": "icons/containers/chest/chest-worn-oak-tan.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "qDQmZyxj9qsWBpKX",
+   "name": "Black Pudding",
+   "type": "npc",
+   "folder": "core/oozes",
+   "img": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+   "tok": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+   "level": "8",
+   "mapped": true
+  },
+  {
+   "id": "U25uyWMvjGSMFAkX",
+   "name": "Elder Ooze",
+   "type": "npc",
+   "folder": "core/oozes",
+   "img": "systems/nimble/assets/monsterImages/ElderOoze.webp",
+   "tok": "systems/nimble/assets/monsterImages/ElderOoze.webp",
+   "level": "12",
+   "mapped": true
+  },
+  {
+   "id": "WxQmp9B4w0OgYVm6",
+   "name": "Gray Ooze",
+   "type": "npc",
+   "folder": "core/oozes",
+   "img": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+   "tok": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "CZNitnDUWKOFE2Vc",
+   "name": "Ochre Jelly",
+   "type": "npc",
+   "folder": "core/oozes",
+   "img": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+   "tok": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+   "level": "4",
+   "mapped": true
+  },
+  {
+   "id": "3xCIKi1kmor4M8da",
+   "name": "Ooze Minion",
+   "type": "minion",
+   "folder": "core/oozes",
+   "img": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+   "tok": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+   "level": "1/4",
+   "mapped": true
+  },
+  {
+   "id": "BSiFuESoO19XNaBx",
+   "name": "Cobra Captain",
+   "type": "npc",
+   "folder": "core/snakemen",
+   "img": "icons/magic/nature/root-vine-coiled-crook.webp",
+   "tok": "icons/magic/nature/root-vine-coiled-crook.webp",
+   "level": "4",
+   "mapped": true
+  },
+  {
+   "id": "zZV7n6ewIvucTxpD",
+   "name": "Giant Cobra",
+   "type": "npc",
+   "folder": "core/snakemen",
+   "img": "icons/magic/nature/root-vine-coiled-crook.webp",
+   "tok": "icons/magic/nature/root-vine-coiled-crook.webp",
+   "level": "8",
+   "mapped": true
+  },
+  {
+   "id": "1z0344rf5edBa077",
+   "name": "Snakeman",
+   "type": "npc",
+   "folder": "core/snakemen",
+   "img": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+   "tok": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "vSrolkz0JjAqA1fw",
+   "name": "Snakeman Minion",
+   "type": "minion",
+   "folder": "core/snakemen",
+   "img": "icons/magic/nature/root-vine-coiled-crook.webp",
+   "tok": "icons/magic/nature/root-vine-coiled-crook.webp",
+   "level": "1/4",
+   "mapped": true
+  },
+  {
+   "id": "3qUezPmZUTHS4J0i",
+   "name": "Greater Stirge",
+   "type": "npc",
+   "folder": "core/stirges",
+   "img": "icons/creatures/abilities/stinger-poison-green.webp",
+   "tok": "icons/creatures/abilities/stinger-poison-green.webp",
+   "level": "6",
+   "mapped": true
+  },
+  {
+   "id": "4eLmzsN0UYJJBGkm",
+   "name": "Stirge",
+   "type": "npc",
+   "folder": "core/stirges",
+   "img": "icons/creatures/abilities/stinger-poison-green.webp",
+   "tok": "icons/creatures/abilities/stinger-poison-green.webp",
+   "level": "1/2",
+   "mapped": true
+  },
+  {
+   "id": "1sz3bC7wjQsmM0jX",
+   "name": "Ghoul",
+   "type": "npc",
+   "folder": "core/undead",
+   "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
+   "tok": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
+   "level": "1",
+   "mapped": true
+  },
+  {
+   "id": "IgWMGO7Fjo1cIeIe",
+   "name": "Giant Zombie",
+   "type": "npc",
+   "folder": "core/undead",
+   "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+   "tok": "icons/magic/death/hand-dirt-undead-zombie.webp",
+   "level": "8",
+   "mapped": true
+  },
+  {
+   "id": "zAppnllBktv0BXEN",
+   "name": "Mummy",
+   "type": "npc",
+   "folder": "core/undead",
+   "img": "icons/magic/death/hand-withered-gray.webp",
+   "tok": "icons/magic/death/hand-withered-gray.webp",
+   "level": "6",
+   "mapped": true
+  },
+  {
+   "id": "lgyg7v3FQwFuVECx",
+   "name": "Mummy Lord",
+   "type": "npc",
+   "folder": "core/undead",
+   "img": "systems/nimble/assets/monsterImages/LargeMummy.webp",
+   "tok": "systems/nimble/assets/monsterImages/LargeMummy.webp",
+   "level": "21",
+   "mapped": true
+  },
+  {
+   "id": "2ccdNT1hcn79hm4x",
+   "name": "Ogre Zombie",
+   "type": "npc",
+   "folder": "core/undead",
+   "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+   "tok": "icons/magic/death/hand-dirt-undead-zombie.webp",
+   "level": "5",
+   "mapped": true
+  },
+  {
+   "id": "34sqnNwhGhVQvZPD",
+   "name": "Scarab Minions",
+   "type": "minion",
+   "folder": "core/undead",
+   "img": "icons/creatures/invertebrates/beetle-stag-yellow-green.webp",
+   "tok": "icons/creatures/invertebrates/beetle-stag-yellow-green.webp",
+   "level": "1/3",
+   "mapped": true
+  },
+  {
+   "id": "2DA7L6itDvrZDtqD",
+   "name": "Skeleton",
+   "type": "npc",
+   "folder": "core/undead",
+   "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+   "tok": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+   "level": "1/3",
+   "mapped": true
+  },
+  {
+   "id": "x0Tx67Oc0vwkZwS6",
+   "name": "Specter",
+   "type": "npc",
+   "folder": "core/undead",
+   "img": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
+   "tok": "icons/creatures/magical/spirit-undead-ghost-blue.webp",
+   "level": "3",
+   "mapped": true
+  },
+  {
+   "id": "7n6nZkTZP6LwALlo",
+   "name": "Wraith",
+   "type": "npc",
+   "folder": "core/undead",
+   "img": "icons/creatures/magical/spirit-undead-winged-ghost.webp",
+   "tok": "icons/creatures/magical/spirit-undead-winged-ghost.webp",
+   "level": "10",
+   "mapped": true
+  },
+  {
+   "id": "uM5wkCvyEpfQ7DPU",
+   "name": "Zombie",
+   "type": "npc",
+   "folder": "core/undead",
+   "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+   "tok": "icons/magic/death/hand-dirt-undead-zombie.webp",
+   "level": "1/2",
+   "mapped": true
+  },
+  {
+   "id": "iee2AYLgQjRieoEI",
+   "name": "Cloaker",
+   "type": "npc",
+   "folder": "core/underground",
+   "img": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "tok": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "level": "13",
+   "mapped": true
+  },
+  {
+   "id": "R24pjE8ntXNVd1Ah",
+   "name": "Ettercap",
+   "type": "npc",
+   "folder": "core/underground",
+   "img": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "tok": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+   "level": "4",
+   "mapped": true
+  },
+  {
+   "id": "Fh0VprW8Tnc2anU7",
+   "name": "Giant Slug Minion",
+   "type": "minion",
+   "folder": "core/underground",
+   "img": "icons/creatures/invertebrates/snail-movement-green.webp",
+   "tok": "icons/creatures/invertebrates/snail-movement-green.webp",
+   "level": "1",
+   "mapped": false
+  },
+  {
+   "id": "ML3WomiwkHKUfTnO",
+   "name": "Giant Spider",
+   "type": "npc",
+   "folder": "core/underground",
+   "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
+   "tok": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
+   "level": "2",
+   "mapped": true
+  },
+  {
+   "id": "lQ83gZRlm3bTgsbp",
+   "name": "Great Worm",
+   "type": "npc",
+   "folder": "core/underground",
+   "img": "systems/nimble/assets/monsterImages/GreatWorm.webp",
+   "tok": "systems/nimble/assets/monsterImages/GreatWorm.webp",
+   "level": "16",
+   "mapped": true
+  },
+  {
+   "id": "zDKPmCy5DbGdkJLU",
+   "name": "Nestweaver",
+   "type": "npc",
+   "folder": "core/underground",
+   "img": "icons/creatures/invertebrates/spider-web-black.webp",
+   "tok": "icons/creatures/invertebrates/spider-web-black.webp",
+   "level": "6",
+   "mapped": true
+  },
+  {
+   "id": "XQOBiTP8L3Yac9Up",
+   "name": "Rat Prince",
+   "type": "npc",
+   "folder": "core/underground",
+   "img": "icons/svg/mystery-man.svg",
+   "tok": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+   "level": "1",
+   "mapped": false
+  },
+  {
+   "id": "xx6ELqMvhFA8qVfN",
+   "name": "Rat Swarm",
+   "type": "minion",
+   "folder": "core/underground",
+   "img": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+   "tok": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+   "level": "1",
+   "mapped": false
+  },
+  {
+   "id": "UqUuKtAWlOrDkAFy",
+   "name": "Umber Hulk",
+   "type": "npc",
+   "folder": "core/underground",
+   "img": "icons/creatures/magical/spirit-earth-stone-magma-yellow.webp",
+   "tok": "icons/creatures/magical/spirit-earth-stone-magma-yellow.webp",
+   "level": "10",
+   "mapped": true
+  },
+  {
+   "id": "7f3ZENlslRDMVcEf",
+   "name": "Wax Golem",
+   "type": "npc",
+   "folder": "core/underground",
+   "img": "icons/magic/symbols/runes-star-magenta.webp",
+   "tok": "icons/magic/symbols/runes-star-magenta.webp",
+   "level": "1",
+   "mapped": false
+  }
+ ],
+ "legendaryMonsters": [
+  {
+   "id": "qQFZW6uEWHL9v1NJ",
+   "name": "Alaric Draegoth's Blood Bat",
+   "type": "minion",
+   "folder": "core",
+   "img": "icons/creatures/mammals/bat-movement-flying-purple.webp",
+   "tok": "icons/creatures/mammals/bat-movement-flying-purple.webp",
+   "level": "1",
+   "mapped": false
+  },
+  {
+   "id": "mrYNYPRzZ13prqSg",
+   "name": "Alaric Draegoth, the Crimson Count",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/alaric.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/alaric.webp",
+   "level": "16",
+   "mapped": false
+  },
+  {
+   "id": "ZtvN9z6ZEolYZu1R",
+   "name": "Azriel, Lord of Pain & Flame",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/azriel.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/azriel.webp",
+   "level": "14",
+   "mapped": false
+  },
+  {
+   "id": "SILDSex9MI5AuAs7",
+   "name": "Caerys, the Hollow Star",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/caerys.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/caerys.webp",
+   "level": "20",
+   "mapped": false
+  },
+  {
+   "id": "7n4NFalMBVr8hKaP",
+   "name": "Dravok, All-Seeing Tyrant",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/dravok.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/dravok.webp",
+   "level": "12",
+   "mapped": false
+  },
+  {
+   "id": "svHoUz8vIun3j9tI",
+   "name": "Dregatha, Thrice-Chinned",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "icons/creatures/magical/humanoid-horned-rider.webp",
+   "tok": "icons/creatures/magical/humanoid-horned-rider.webp",
+   "level": "5",
+   "mapped": false
+  },
+  {
+   "id": "91He6bIh0M7nRt2C",
+   "name": "Florindris, Bane of the Forest",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/florindris.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/florindris.webp",
+   "level": "7",
+   "mapped": false
+  },
+  {
+   "id": "JZ9lUy4rwuTBCa6t",
+   "name": "General Flameheart",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/flameheart.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/flameheart.webp",
+   "level": "8",
+   "mapped": false
+  },
+  {
+   "id": "n6suthbw9UWnOpex",
+   "name": "Gloomwing the Cruel",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/gloomwing.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/gloomwing.webp",
+   "level": "15",
+   "mapped": false
+  },
+  {
+   "id": "HIXIhUIG7S9vyF1B",
+   "name": "Greenthumb, Lichling",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/Greenthumb.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/Greenthumb.webp",
+   "level": "3",
+   "mapped": false
+  },
+  {
+   "id": "UqXZgpT99YjVCVQj",
+   "name": "Grimbeak, the Unyielding",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/grimbeak.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/grimbeak.webp",
+   "level": "3",
+   "mapped": false
+  },
+  {
+   "id": "LZYmTHd8wN4x8DCo",
+   "name": "Kelebek, Entomancer",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "icons/creatures/invertebrates/wasp-swarm-tan.webp",
+   "tok": "icons/creatures/invertebrates/wasp-swarm-tan.webp",
+   "level": "3",
+   "mapped": false
+  },
+  {
+   "id": "4CLKneQXGJuCNoP7",
+   "name": "Krogg, Goblin King",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+   "tok": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+   "level": "2",
+   "mapped": false
+  },
+  {
+   "id": "tPiWzclr1ZSkyTAP",
+   "name": "Lind Worm",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "icons/creatures/reptiles/serpent-horned-green.webp",
+   "tok": "icons/creatures/reptiles/serpent-horned-green.webp",
+   "level": "4",
+   "mapped": false
+  },
+  {
+   "id": "nHmhDIozM5iowqpT",
+   "name": "Nalzar, Apex Predator",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/nalzar.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/nalzar.webp",
+   "level": "6",
+   "mapped": false
+  },
+  {
+   "id": "tIt1UdE6d6jmughV",
+   "name": "Poppy, Giant Stinkbug",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "icons/creatures/invertebrates/beetle-stag-yellow-green.webp",
+   "tok": "icons/creatures/invertebrates/beetle-stag-yellow-green.webp",
+   "level": "3",
+   "mapped": false
+  },
+  {
+   "id": "nAew89tkjzZNnnac",
+   "name": "Pudge the Blunderer",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+   "tok": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
+   "level": "2",
+   "mapped": false
+  },
+  {
+   "id": "RW07GUkU1QLtRbrV",
+   "name": "Queen Aranya's Spiderling Minion",
+   "type": "minion",
+   "folder": "core",
+   "img": "icons/creatures/invertebrates/spider-web-black.webp",
+   "tok": "icons/creatures/invertebrates/spider-web-black.webp",
+   "level": "1",
+   "mapped": false
+  },
+  {
+   "id": "m5BJajp8f7TGj3QU",
+   "name": "Queen Aranya, Broodmother",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/aranya.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/aranya.webp",
+   "level": "6",
+   "mapped": false
+  },
+  {
+   "id": "zCcpMXbxzzyFzKsz",
+   "name": "Ravager of the Lowlands",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/ravager.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/ravager.webp",
+   "level": "5",
+   "mapped": false
+  },
+  {
+   "id": "zaM78FA829bAaDmR",
+   "name": "Scorpion Queen",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "icons/creatures/invertebrates/scorpion-yellow.webp",
+   "tok": "icons/creatures/invertebrates/scorpion-yellow.webp",
+   "level": "5",
+   "mapped": false
+  },
+  {
+   "id": "lgul04YrKU0RjG0F",
+   "name": "Thorn Quickblade",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/thorn.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/thorn.webp",
+   "level": "4",
+   "mapped": false
+  },
+  {
+   "id": "9HMbDYuZ4iJusIrj",
+   "name": "Titan of the Deep Woods",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/titan.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/titan.webp",
+   "level": "10",
+   "mapped": false
+  },
+  {
+   "id": "DOHY1RHnRQlPqAYn",
+   "name": "Titan's Skeleton Minion",
+   "type": "minion",
+   "folder": "core",
+   "img": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+   "tok": "icons/magic/death/hand-undead-skeleton-fire-pink.webp",
+   "level": "1",
+   "mapped": false
+  },
+  {
+   "id": "WnnjaFQVSMGeqIIT",
+   "name": "Ul'vek, Psionic Despot",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/ulvek.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/ulvek.webp",
+   "level": "11",
+   "mapped": false
+  },
+  {
+   "id": "zLiINIZUQWRIx59J",
+   "name": "Vael, Undying Necromancer",
+   "type": "soloMonster",
+   "folder": "core",
+   "img": "systems/nimble/assets/legendaryMonsterImages/core/vael.webp",
+   "tok": "systems/nimble/assets/legendaryMonsterImages/core/vael.webp",
+   "level": "9",
+   "mapped": false
+  }
+ ]
+}

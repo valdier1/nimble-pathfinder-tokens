@@ -1,0 +1,18 @@
+import fs from 'fs';
+const settings={applyOnCreate:true,applyToScenes:true,replaceNimbleArt:true,customFolder:'',preferCustom:true};
+globalThis.game={user:{id:'gm',isGM:true},system:{id:'nimble'},modules:{get:()=>({active:true})},settings:{get:(m,k)=>settings[k]}};
+globalThis.fetch=async(u)=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(u.replace('modules/nimble-pathfinder-tokens/',''),'utf8'))});
+globalThis.FilePicker={browse:async()=>{throw new Error('should not browse when folder empty')}};
+const mod=await import('./.nimble-art.mjs');
+mod.__test.setTable(JSON.parse(fs.readFileSync('module/art-by-name.json','utf8')));
+await mod.__test.loadCustomArt();
+let pass=0,fail=0; const run=(n,img='icons/svg/mystery-man.svg')=>{let u=null;mod.__test.onPreCreateActor({updateSource:x=>u=x},{name:n,img},{},'gm');return u;};
+const chk=(l,ok,i='')=>{ok?pass++:fail++;console.log(ok?'PASS':'FAIL',l,i)};
+let u=run('Goblin Ratrider'); chk('bundled art by name', u?.prototypeToken.texture.src==='modules/nimble-pathfinder-tokens/art/goblinratrider-token.webp' && u.img.endsWith('goblinratrider.webp'), u?.prototypeToken.texture.src);
+u=run('Dregatha, Thrice-Chinned'); chk('Dregatha: picked hag token + name-matched portrait', u?.prototypeToken.texture.src.endsWith('threechinnedhagironrimmed-token.webp') && u.img.endsWith('dregathathethricechinnedhag.webp'), u?.img);
+u=run('Psionic Despot'); chk('new Psionic Despot art used', u?.prototypeToken.texture.src.endsWith('psionicdespot-token.webp'));
+u=run('Cerebral Hulks'); chk('Cerebral Hulks matches your Cerebral Hulk art', u?.prototypeToken.texture.src.endsWith('cerebralhulk-token.webp'), u?.prototypeToken.texture.src);
+u=run('Goblin Ratrider','modules/nimble-pathfinder-tokens/art/goblinratrider.webp'); chk('actor already on bundled art left alone', u===null);
+const paths=Object.values(JSON.parse(fs.readFileSync('module/custom-art.json','utf8'))).flatMap(g=>[g.actor,g.token,g.subject].filter(Boolean));
+chk('every bundled path exists in the module', paths.every(p=>fs.existsSync(p.replace('modules/nimble-pathfinder-tokens/',''))), paths.length+' paths');
+console.log(`\n${pass} passed, ${fail} failed`); process.exit(fail?1:0);

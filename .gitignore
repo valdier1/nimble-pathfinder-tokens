@@ -7,3 +7,5 @@ node_modules/**
 package-lock.json
 .sourcery.yaml
 .zed/
+__pycache__/
+tools/tests/.nimble-art.mjs

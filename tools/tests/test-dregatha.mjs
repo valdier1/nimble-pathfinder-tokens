@@ -1,0 +1,10 @@
+globalThis.game={user:{id:'gm'},system:{id:'nimble'},modules:{get:()=>({active:true})},settings:{get:(m,k)=>({preferCustom:true,customFolder:'custom-tokens',applyOnCreate:true})[k]}};
+const mod=await import('./.nimble-art.mjs');
+const files=['Dregatha, the Thrice-Chinned Hag-1.png','Three-chinned hag iron-rimmed token-2.png','Book Mimic-1.png','book mimic token-2.png'];
+mod.__test.setCustom(files.map(f=>'custom-tokens/'+encodeURIComponent(f)));
+mod.__test.setTable({dregathathricechinned:{name:'Dregatha, Thrice-Chinned',choices:[{module:'custom',key:'threechinnedhagironrimmed'},{module:'pf2e-tokens-bestiaries',actor:'a',token:'t',subject:'s',scale:1}]}});
+const run=(name)=>{let u;mod.__test.onPreCreateActor({updateSource:x=>u=x},{name,img:'icons/svg/mystery-man.svg'},{},'gm');return u&&[decodeURIComponent(u.img),decodeURIComponent(u.prototypeToken.texture.src)];};
+const d=run('Dregatha, Thrice-Chinned'); console.log(d);
+const b=run('Book Mimic'); console.log(b);
+const ok=d[0].includes('Dregatha, the Thrice')&&d[1].includes('iron-rimmed token')&&b[0].includes('Book Mimic-1')&&b[1].includes('book mimic token-2');
+console.log(ok?'PASS':'FAIL'); process.exit(ok?0:1);

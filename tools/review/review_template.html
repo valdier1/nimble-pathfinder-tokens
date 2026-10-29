@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nimble Token Review</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky control bar, then one review card per creature: who it is | chosen token | alternatives */
+:root{
+  --bg:#f3f4f6; --surface:#fff; --line:#d9dde3; --fg:#1b2129; --muted:#5b6573; --accent:#2f5d8a; --accent-bg:#e4edf6;
+  --ok:#2e7d4f; --ok-bg:#e1f1e7; --warn:#9a5b00; --warn-bg:#fcefd6; --done:#4b5d75; --done-bg:#e7ecf2;
+  --display:"Alegreya Sans SC","Trebuchet MS",sans-serif; --body:"IBM Plex Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#11151b; --surface:#192029; --line:#2b3440; --fg:#e3e8ee; --muted:#98a3b2; --accent:#82b2e2; --accent-bg:#1f2f42;
+  --ok:#7fd4a0; --ok-bg:#173225; --warn:#f2bf6b; --warn-bg:#382b12; --done:#a9bad0; --done-bg:#222b37; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 var(--body)}
+.bar{position:sticky;top:0;z-index:5;background:var(--surface);border-bottom:1px solid var(--line);padding:12px max(16px,3vw);display:grid;gap:10px}
+.top{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:baseline}
+h1{font:700 1.6rem/1.1 var(--display);margin:0}
+.progress{font:500 .95rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.progress b{color:var(--fg)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.f,button{font:inherit;font-size:.92rem;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 10px}
+button{cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--surface);font-weight:600}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chk{display:flex;gap:6px;align-items:center;font-size:.9rem;color:var(--muted)}
+.copied{color:var(--ok);font-size:.9rem}
+main{padding:16px max(16px,3vw) 60px;display:grid;gap:10px;max-width:1300px;margin:0 auto}
+.hint{color:var(--muted);font-size:.9rem;margin:0 0 4px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;grid-template-columns:minmax(200px,1.1fr) auto minmax(220px,1.4fr);gap:16px;align-items:center}
+.card.rev{border-color:var(--ok)}
+.who{display:grid;gap:4px;min-width:0}
+.who .name{font:700 1.15rem/1.15 var(--display)}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.8rem;color:var(--muted)}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:.75rem;font-weight:600;white-space:nowrap}
+.pill.r{color:var(--warn);background:var(--warn-bg)} .pill.m{color:var(--ok);background:var(--ok-bg)} .pill.mapped{color:var(--done);background:var(--done-bg)} .pill.changed{color:var(--accent);background:var(--accent-bg)}
+.tag{border:1px solid var(--line);border-radius:4px;padding:0 6px}
+.note{font-size:.8rem;color:var(--warn)}
+.pick{display:grid;grid-template-columns:auto;justify-items:center;gap:4px;width:150px;text-align:center}
+.pick img{width:120px;height:120px;object-fit:contain;background:var(--bg);border-radius:8px}
+.pick .lab{font-weight:600;font-size:.85rem;line-height:1.2}
+.mod{font:500 .7rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.alts{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-start}
+.alt{display:grid;justify-items:center;gap:2px;width:92px;padding:4px;border:1px solid transparent;border-radius:8px;background:none;text-align:center}
+.alt img{width:72px;height:72px;object-fit:contain;background:var(--bg);border-radius:6px}
+.alt span{font-size:.72rem;line-height:1.15}
+.alt:hover{border-color:var(--accent)}
+.alt.sel{border-color:var(--accent);background:var(--accent-bg)}
+.side{display:grid;gap:8px;justify-items:start}
+.acts{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.empty{padding:40px;text-align:center;color:var(--muted)}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);width:min(1000px,94vw);height:min(760px,90vh);padding:0}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+.dlg{display:grid;grid-template-rows:auto 1fr;height:100%}
+.dlg header{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line)}
+.dlg header b{font:700 1.1rem var(--display);margin-right:auto}
+.grid{overflow:auto;padding:12px 14px;display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px;align-content:start}
+.grid .alt{width:auto}
+.grid .alt img{width:88px;height:88px}
+.more{grid-column:1/-1;text-align:center;color:var(--muted);font-size:.85rem}
+@media (max-width:820px){.card{grid-template-columns:1fr}.pick{width:auto;justify-items:start;text-align:left}}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}}
+</style>
+</head>
+<body>
+<div class="bar">
+  <div class="top">
+    <h1>Nimble Token Review</h1>
+    <span class="progress" id="progress"></span>
+  </div>
+  <div class="controls">
+    <select class="f" id="fstatus" aria-label="Show">
+      <option value="r">Needs review</option><option value="m">Clear matches</option><option value="mapped">Already mapped</option><option value="custom">Using your art</option><option value="">Everything</option>
+    </select>
+    <select class="f" id="fbook" aria-label="Book"><option value="">Both books</option><option value="GMG 3.0">GMG 3.0</option><option value="M&amp;M v0.1">Monsters &amp; More v0.1</option></select>
+    <input class="f" id="fq" type="search" placeholder="Find a creature…" aria-label="Find a creature">
+    <label class="chk"><input type="checkbox" id="funrev"> Hide reviewed</label>
+    <label class="chk"><input type="checkbox" id="fsolo"> Hide solos</label>
+    <button type="button" id="loadart">Load my art folder…</button><input type="file" id="artdir" webkitdirectory multiple hidden><span class="chk" id="artcount"></span>
+    <span style="flex:1"></span>
+    <button class="primary" id="copy" type="button">Copy my choices</button>
+    <span class="copied" id="copied" hidden>Copied — paste it into the chat</span>
+  </div>
+</div>
+<main>
+  <p class="hint">The large token is what the module will use. Click an alternative to swap, or browse everything. Tick <b>Looks right</b> when you're happy with a line. Your choices are saved in this browser.</p>
+  <p class="hint">Your own art lives in the <b>custom-tokens</b> folder next to this page. Name each file after the monster: <code>Book Mimic-1.png</code> for the portrait and <code>Book Mimic token-2.png</code> for the token (an optional <code>… subject.png</code> is a token-ring cutout). Case, spaces, hyphens and the numbers at the end don't matter, and for a name with a comma like <i>Dregatha, Thrice-Chinned</i>, a file starting with <i>Dregatha,</i> matches. After adding files, click <b>Load my art folder…</b> and pick the custom-tokens folder to see them here.</p>
+  <div id="list"></div>
+  <textarea id="out" hidden aria-label="Your choices as text" style="width:100%;height:160px;font:12px var(--mono)"></textarea>
+</main>
+<dialog id="dlg"><div class="dlg">
+  <header><b id="dlgtitle">Choose art</b>
+    <input class="f" id="dq" type="search" placeholder="Search 2,500 tokens…" aria-label="Search tokens">
+    <select class="f" id="dm" aria-label="Module"><option value="">All modules</option></select>
+    <button type="button" id="dclose">Close</button></header>
+  <div class="grid" id="dgrid"></div>
+</div></dialog>
+<script>
+const ROWS = __ROWS__;
+const CAT = __CAT__;
+let CUSTOM = __CUSTOM__;   // [{key,label,actor,token,subject}] paths relative to custom-tokens/
+const CUSTOM_DIR = 'custom-tokens/';
+const MODNAME = {"custom":"Your art","bestiaries":"Bestiaries","monster-core":"Monster Core","monster-core-2":"Monster Core 2","draconic-codex":"Draconic Codex","npc-core":"NPC Core"};
+const KEY = 'nimble-token-review-v1';
+const norm = s => String(s||'').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]/g,'');
+let state = {}; try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e) {}
+ROWS.forEach(r => { if (r.rv && !(state[r.n] && 'ok' in state[r.n])) state[r.n] = Object.assign(state[r.n]||{}, {ok:true}); });
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e) {} };
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const customByKey = () => Object.fromEntries(CUSTOM.map(c => [c.key, c]));
+/* A pick is a catalog index (number) or 'c:<key>' for your own art. */
+function info(p){
+  if (typeof p === 'string' && p.startsWith('c:')) {
+    const c = customByKey()[p.slice(2)];
+    if (!c) return null;
+    return {m:'custom', label:c.label, src: CUSTOM_DIR + (c.token || c.actor)};
+  }
+  const c = CAT[p]; return c ? {m:c[0], label:c[1], src:'pf2e-tokens-' + c[0] + '/' + c[2]} : null;
+}
+const autoCustom = r => { const k = findCustomKey(r.n); return k ? 'c:' + k : null; };
+const baseline = r => (r.cp && info('c:' + r.cp)) ? 'c:' + r.cp : r.ch[0];
+function pickOf(r){ const s = state[r.n]; if (s && s.pick != null && info(s.pick)) return s.pick; return (r.cp && info('c:' + r.cp)) ? 'c:' + r.cp : (autoCustom(r) ?? r.ch[0]); }
+const isChanged = r => { const s = state[r.n]; return !!(s && s.pick != null && info(s.pick) && s.pick !== baseline(r)); };
+const STL = {r:'Needs review', m:'Match', mapped:'Already mapped'};
+function progress(){
+  const rev = ROWS.filter(r => state[r.n] && state[r.n].ok).length;
+  const ch = ROWS.filter(isChanged).length;
+  const own = ROWS.filter(r => info(pickOf(r)).m === 'custom').length;
+  const nr = ROWS.filter(r => r.st === 'r').length;
+  $('progress').innerHTML = `<b>${rev}</b> of ${ROWS.length} reviewed · <b>${ROWS.filter(r=>r.st==='r'&&state[r.n]&&state[r.n].ok).length}</b> of ${nr} guesses checked · <b>${ch}</b> changed · <b>${own}</b> using your art`;
+}
+function thumb(p, sel){
+  const x = info(p); if (!x) return '';
+  return `<button type="button" class="alt${sel?' sel':''}" data-p="${esc(p)}" title="${esc(x.label)} — ${MODNAME[x.m]}"><img loading="lazy" src="${esc(x.src)}" alt=""><span>${esc(x.label)}</span><span class="mod">${MODNAME[x.m]}</span></button>`;
+}
+function card(r){
+  const p = pickOf(r), s = state[r.n] || {}, changed = isChanged(r), x = info(p);
+  const auto = !changed && typeof p === 'string' && p !== 'c:' + r.cp;
+  const alts = [...new Set([...(r.cp && info('c:' + r.cp) ? ['c:' + r.cp] : []), ...(autoCustom(r) ? [autoCustom(r)] : []), ...r.ch])].filter(i => i !== p);
+  return `<article class="card${s.ok?' rev':''}" data-n="${esc(r.n)}">
+    <div class="who"><div class="name">${esc(r.n)}</div>
+      <div class="meta"><span class="pill ${r.st}">${STL[r.st]}</span>${changed?'<span class="pill changed">Changed</span>':''}${auto?'<span class="pill changed">Your art, matched by name</span>':''}
+        <span>Lvl ${esc(r.lv)}${r.solo?' · Solo':''}${r.k==='enemy hero'?' · Enemy hero':''}</span></div>
+      <div class="meta">${r.b.map(b=>`<span class="tag">${esc(b)}</span>`).join('')}<span>${r.pk ? (r.pk==='core'?'In Nimble monsters':'In Nimble legendaries') : 'Not in Nimble yet'}</span></div>
+      ${r.note?`<div class="note">${esc(r.note)}</div>`:''}</div>
+    <div class="pick"><img loading="lazy" src="${esc(x.src)}" alt="${esc(x.label)} token"><div class="lab">${esc(x.label)}</div><div class="mod">${MODNAME[x.m]}</div></div>
+    <div class="side"><div class="alts">${alts.map(i=>thumb(i,false)).join('')}</div>
+      <div class="acts"><button type="button" class="browse">Browse all art…</button>
+        <label class="chk"><input type="checkbox" class="ok" ${s.ok?'checked':''}> Looks right</label>
+        ${changed?'<button type="button" class="undo">Undo change</button>':''}</div></div>
+  </article>`;
+}
+function render(){
+  const st=$('fstatus').value, bk=$('fbook').value, q=$('fq').value.trim().toLowerCase(), hide=$('funrev').checked, nosolo=$('fsolo').checked;
+  saveFilters();
+  const rows = ROWS.filter(r => (!st||r.st===st||(st==='custom'&&info(pickOf(r)).m==='custom')) && (st!=='custom'||info(pickOf(r)).m==='custom') && (!bk||r.b.includes(bk)) && (!q||r.n.toLowerCase().includes(q)||info(pickOf(r)).label.toLowerCase().includes(q)) && !(hide && state[r.n] && state[r.n].ok) && !(nosolo && r.solo));
+  $('list').innerHTML = rows.length ? rows.map(card).join('') : '<div class="empty">Nothing left here. Try another filter.</div>';
+  progress();
+}
+const parseP = v => /^\d+$/.test(v) ? +v : v;
+function setPick(n, p){ state[n] = Object.assign(state[n]||{}, {pick:p}); save(); render(); }
+$('list').addEventListener('click', e => {
+  const c = e.target.closest('.card'); if (!c) return; const n = c.dataset.n; const r = ROWS.find(x=>x.n===n);
+  const a = e.target.closest('.alt'); if (a) { setPick(n, parseP(a.dataset.p)); return; }
+  if (e.target.closest('.browse')) openPicker(r);
+  if (e.target.closest('.undo')) { delete state[n].pick; save(); render(); }
+});
+$('list').addEventListener('change', e => { if (!e.target.classList.contains('ok')) return; const n = e.target.closest('.card').dataset.n; state[n] = Object.assign(state[n]||{}, {ok:e.target.checked}); save(); if ($('funrev').checked) render(); else { e.target.closest('.card').classList.toggle('rev', e.target.checked); progress(); } });
+const FKEY = 'nimble-token-review-filters-v1', FIDS = ['fstatus','fbook','funrev','fsolo'];
+function saveFilters(){ try { localStorage.setItem(FKEY, JSON.stringify(Object.fromEntries(FIDS.map(id => [id, $(id).type==='checkbox' ? $(id).checked : $(id).value])))); } catch(e) {} }
+try { const f = JSON.parse(localStorage.getItem(FKEY) || '{}'); FIDS.forEach(id => { if (id in f) { if ($(id).type==='checkbox') $(id).checked = f[id]; else $(id).value = f[id]; } }); } catch(e) {}
+['fstatus','fbook','fq','funrev','fsolo'].forEach(id => $(id).addEventListener('input', render));
+let pickFor = null;
+Object.entries(MODNAME).forEach(([k,v]) => $('dm').insertAdjacentHTML('beforeend', `<option value="${k}">${v}</option>`));
+function openPicker(r){ pickFor = r; $('dlgtitle').textContent = 'Art for ' + r.n; $('dq').value = r.n.split(/[,(]/)[0].split(' ').pop(); drawGrid(); $('dlg').showModal(); $('dq').focus(); }
+function drawGrid(){
+  const q = $('dq').value.trim().toLowerCase(), m = $('dm').value, cur = pickOf(pickFor);
+  const hits = [];
+  if (!m || m === 'custom') CUSTOM.forEach(c => { if (!q || c.label.toLowerCase().includes(q) || m === 'custom') hits.push('c:' + c.key); });
+  if (m !== 'custom') for (let i=0;i<CAT.length;i++){ const c=CAT[i]; if ((!m||c[0]===m) && (!q || c[1].toLowerCase().includes(q) || (c[7]||'').toLowerCase().includes(q))) hits.push(i); }
+  $('dgrid').innerHTML = hits.slice(0,240).map(p => thumb(p, p===cur)).join('') + (hits.length>240?`<div class="more">Showing 240 of ${hits.length}. Narrow the search to see more.</div>`:'') + (hits.length?'':'<div class="more">No art matches.</div>');
+}
+$('dq').addEventListener('input', drawGrid); $('dm').addEventListener('input', drawGrid);
+$('dgrid').addEventListener('click', e => { const a = e.target.closest('.alt'); if (!a) return; setPick(pickFor.n, parseP(a.dataset.p)); $('dlg').close(); });
+$('dclose').addEventListener('click', () => $('dlg').close());
+/* Same rules as the module: copy numbers ("-1", "-2") ignored, "token"/"subject" at the end marks the role. */
+function parseArt(f){
+  let base = f.replace(/\.[^.]+$/, '').trim().replace(/[\s_-]*(\(\d+\)|\d+)$/, '');
+  const m = base.match(/^(.*?)[\s_-]+(token|subject)$/i);
+  return {label:(m ? m[1] : base).replace(/[-_]+/g,' ').replace(/\s+/g,' ').trim(), role: m ? m[2].toLowerCase() : 'actor'};
+}
+function groupCustom(names){
+  const g = {};
+  names.filter(f => /\.(webp|png|jpe?g|avif|gif)$/i.test(f)).forEach(f => {
+    const {label, role} = parseArt(f); const k = norm(label); if (!k) return;
+    g[k] = g[k] || {key:k, label}; g[k][role] = f;
+  });
+  return Object.values(g);
+}
+const leadName = l => { const i = String(l).indexOf(','); if (i < 0) return null; const k = norm(l.slice(0,i)); return k.length >= 4 ? k : null; };
+function findCustomKey(name){
+  const by = customByKey(), k = norm(name); if (by[k]) return k;
+  const o = k.endsWith('s') ? k.slice(0,-1) : k + 's'; if (k.length >= 4 && by[o]) return o;
+  const lead = leadName(name) ?? (k.length >= 4 ? k : null); if (!lead) return null; if (by[lead]) return lead;
+  const hits = CUSTOM.filter(c => leadName(c.label) === lead); return hits.length === 1 ? hits[0].key : null;
+}
+$('loadart').addEventListener('click', () => $('artdir').click());
+$('artdir').addEventListener('change', e => {
+  const files = [...e.target.files].filter(f => f.webkitRelativePath.split('/').length === 2).map(f => f.name);
+  CUSTOM = groupCustom(files); $('artcount').textContent = `${CUSTOM.length} of your images loaded`; render();
+});
+$('copy').addEventListener('click', async () => {
+  const out = {v:2, picks:{}, reviewed:[]};
+  ROWS.forEach(r => { const s = state[r.n]||{};
+    if (isChanged(r)) { const p = s.pick; out.picks[r.n] = typeof p === 'string' ? ['custom', p.slice(2)] : [CAT[p][0], CAT[p][2]]; }
+    if (s.ok) out.reviewed.push(r.n); });
+  const txt = 'NIMBLE-REVIEW ' + JSON.stringify(out);
+  try { await navigator.clipboard.writeText(txt); $('copied').hidden = false; setTimeout(()=>$('copied').hidden=true, 4000); }
+  catch(e) { const t=$('out'); t.hidden=false; t.value=txt; t.select(); }
+});
+Object.values(state).forEach(v => { if (v && typeof v.pick === 'string' && !info(v.pick)) delete v.pick; }); save();
+$('artcount').textContent = `${CUSTOM.length} of your images loaded`;
+render();
+</script>
+</body>
+</html>

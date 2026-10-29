@@ -1,0 +1,356 @@
+# name | m=match r=needs review | choices in order (Label@Module), first is the pick
+# Modules: B=Bestiaries M=Monster Core M2=Monster Core 2 D=Draconic Codex N=NPC Core
+Gnoll|r|Kholo Hunter@M;Kholo Hunter@B;Kholo Cultist@B
+Goblin Ratrider|r|Giant Rat@B;Goblin Commando@B;Goblin Dog@B
+Krogg, Goblin King|r|Bugbear Tormentor@M;Bugbear Thug@B;Big Boss Goblin@N
+Giant Venus Flytrap|m|Giant Flytrap@B;Snapping Flytrap@B;Flytrap Leshy@B
+Pinky|r|Bugbear Prowler@M;Goblin Dog@B;Bugbear Thug@B
+Greenthumb, Lichling|r|Gourd Leshy Witch@N;Lich@B;Vine Leshy@B
+Kobold Clanger|r|Kobold Egg Guardian@N;Kobold Warrior@M;Kobold Warrior@B
+Bandit Minion|r|Ruffian@N;Bandit Gang (Troop)@N;Urchin@N
+Bandit|m|Bandit@N;Ruffian@N;Burglar@N
+Bandit Hunter|r|Poacher@N;Archer Sentry@N;Tracker@N
+Bandit Bruiser|r|Legbreaker@N;Ruffian@N;Juggernaut@N
+Bandit Assassin|r|Leaping Thief@N;Burglar@N;Saboteur@N
+Bandit Mage|r|Mage For Hire@N;Charlatan@N;Curse Monger@N
+Bandit Captain|r|Gang Leader@N;Crime Kingpin@N;Bounty Hunter@N
+Bandit Ice Mage|r|Watchmage@N;Enchanting Ritualist@N;Mage For Hire@N
+Bandit Fire Mage|r|Demolitionist@N;Ifrit Pyrochemist@B;Mage For Hire@N
+Druid|m|Dedicated Druid@N;Druid Initiate@N;Tree Singer@N
+Fanatic|r|Zealot of Asmodeus@N;Abandoned Zealot@B;Cult Leader@N
+Doomsayer|r|Prophet@N;Cult Leader@N;Demonologist@N
+Pudge the Blunderer|r|Ogre Glutton@B;Ogre Warrior@B;Ogre Boss@B
+Kelebek, Entomancer|r|Swarm Voice@N;Druid Initiate@N;Hive Mother@B
+Poppy, Giant Stinkbug|r|Giant Cockroach@B;Giant Stag Beetle@B;Beetle Carapace@M2
+Grimbeak, the Unyielding|r|Owlbear@B;Feathered Bear@B;Feathered Bear@M2
+Thorn Quickblade|r|Peerless Duelist@N;Flamboyant Thief@N;Elf Rogue@B
+Ravager of the Lowlands|r|Manticore Paaridar@B;Manticore@M;Manticore@B
+Queen Aranya, Broodmother|r|Goliath Spider@B;Drider@B;Goliath Spider@M
+Nalzar, Apex Predator|r|Shadow Drake@B;Desert Drake@B;Rider Drake@D
+Florindris, Bane of the Forest|r|Adult Forest Dragon@B;Young Forest Dragon@B;Delight Dragon@D
+Vael, Undying Necromancer|r|Necromancer@N;Lich@B;Graveknight@B
+General Flameheart|r|Efreeti@B;Elemental Inferno@B;Fire Giant@B
+Elemental Fireling|r|Fire Scamp@M;Fire Wisp@B;Fire Mephit@B
+Titan of the Deep Woods|r|Skeletal Giant@B;Skeletal Titan@M2;Skeletal Hulk@B
+Ul'vek, Psionic Despot|r|Veiled Master@B;Intellect Devourer@B;Brain Collector@B
+Dravok, All-Seeing Tyrant|r|Hyakume@B;Gogiteth@B;Gibbering Mouther@B
+Azriel, Lord of Pain & Flame|m|Balor@B;Marilith@B;Nalfeshnee@B
+Gloomwing the Cruel|r|Zombie Dragon@B;Adult Underworld Dragon@B;Wyrmwraith@B
+Alaric Draegoth, the Crimson Count|m|Vampire Count@B;Vampire Mastermind@B;Vampire Count@M
+Caerys, the Hollow Star|r|Shining Child@B;World Ender@N;Lurker In Light@B
+Rat Swarm|m|Rat Swarm@B;Rat Swarm@M;Giant Rat@B
+Rat Prince|r|Wererat@B;Ratfolk Grenadier@B;Giant Rat@B
+Wax Golem|r|Golem@M2;Clay Effigy@B;Poppet Attendant@M2
+Giant Slug Minion|m|Giant Slug@B;Giant Leech@B;Giant Maggot@B
+Scorpion Queen|r|Girtablilu Seer@B;Giant Scorpion@B;Black Scorpion@B
+Lind Worm|r|Crag Linnorm@B;Tarn Linnorm@B;Ice Linnorm@B
+Bog Giant|m|Marsh Giant@B;Marsh Giant@M;Tomb Giant@B
+Dregatha, Thrice-Chinned|r|Annis Hag@B;Iron Hag@M;Blood Hag@B
+Incubus/Succubus|m|Succubus@B;Succubus@M;Lustspawn@B
+Alaric Draegoth's Blood Bat|r|Giant Bat@B;Vampire Bat Swarm@B;Giant Bat@M
+Queen Aranya's Spiderling Minion|r|Hunting Spider@B;Spider Swarm@B;Hunting Spider@M
+Titan's Skeleton Minion|r|Skeleton Infantry@B;Skeleton Guard@B;Skeletal Champion@B
+Nilbog|r|Goblin Pyro@B;Goblin Chef@N;Goblin Scavenger@N
+Bugbear Chieftain|r|Bugbear Tormentor@B;Bugbear Thug@B;Bugbear Prowler@M
+Ratapult|r|Animated Trebuchet@B;Giant Rat@B;Rat Swarm@B
+Vermis & Skittersnack|r|Giant Rat@B;Goblin Commando@B;Goblin Dog@B
+Narbles & His Stack of Friends|r|Kobold Warrior@B;Kobold Earth Diver@N;Kobold Scout@B
+Cricket & Hamshake|r|Hill Giant@B;Kobold Scout@B;Cave Giant@B
+Faerie Trickmage|r|Draxie@B;Quickling@B;Sprite@B
+Pixie|m|Pixie@B;Pixie@M;Sprite@B
+Faerie|r|Sprite@B;Sprite@M;Draxie@B
+Faerie Troubadour|r|Grig@B;Lyrakien@B;Sprite@B
+Faerie Merrymaker|r|Melixie@B;Grig@B;Sprite@B
+Satyr|m|Satyr@B;Satyr@M;Korred@B
+Unicorn|m|Unicorn@B;Unicorn@M;Kirin@B
+Faerie Dragon|m|Faerie Dragon@B;Faerie Dragon@D;Fey Dragonet@D
+Centaur|m|Centaur@B;Centaur Herbalist@M;Ghaele@B
+Will-o'-Wisp|m|Will-o'-Wisp@B;Witchfire@B;Air Wisp@B
+Nixie|m|Nixie@B;Nixie@M2;Naiad@B
+Brollachan|r|Animate Dream@B;Shae@B;Shadow@B
+Redcap|m|Redcap@B;Redcap@M;Spriggan Bully@B
+Jabberwocky|m|Jabberwock@B;Jabberwock@D;Bandersnatch@M
+Gremlin|r|Jinkin@B;Mitflit@B;Pugwampi@B
+Gremlin Wrestler|r|Nuglub@B;Jinkin@M;Pugwampi@B
+Gremlin Roastmaster|r|Vexgit@B;Jinkin@B;Mitflit@M
+Bogey|r|Grendel@B;Bogwid@M;Kurobozu@B
+Gremlin Minion|r|Mitflit@B;Mitflit@M;Pugwampi@B
+Razzle, Gremlin Iconoclast|r|Pugwampi@B;Pugwampi@M;Vexgit@B
+Mav, the Winter Queen|r|Winter Hag@B;Hesperid Queen@B;Lampad Queen@B
+Orc Raider|r|Orc Warrior@B;Orc Scrapper@M;Orc Brute@B
+Warpig|r|Daeodon@B;Boar@B;Pig (Anti-Dragon Barding)@D
+Orc Battlebard|r|Orc Scrapper@M;Orc Veteran Master@N;Orc Warrior@B
+Orc|r|Orc Brute@B;Orc Warrior@B;Orc Scrapper@M
+Orc Elite|r|Orc Veteran@M;Orc Veteran Master@N;Orc Warrior@B
+Orc Warchief|m|Orc Warchief@B;Orc Commander@M;Orc Veteran@M
+High Orc Flamecaller|r|Orc Veteran Master@N;Orc Commander@M;Orc Warchief@B
+Orc Giant|r|Taiga Giant@B;Cave Giant@B;Hill Giant@B
+Flamebound Ancestor|r|Witchfire@B;Fire Wisp@B;Ghost Commoner@B
+Hordecaller Kerem|r|Orc Commander@M;Orc Warchief@B;Orc Veteran Master@N
+Berserker|r|Warmonger@N;Juggernaut@N;Black Belt@N
+The Cheat|r|Charlatan@N;Flamboyant Thief@N;Leaping Thief@N
+Commander|r|Drill Sergeant@N;Captain of The Guard@N;Standard Bearer@N
+Hunter|m|Hunter@N;Tracker@N;Monster Hunter@N
+Mage|r|Mage For Hire@N;Eldritch Emeritus@N;Apprentice@N
+Oathsworn|r|Deific Champion of Iomedae@N;Champion of Shelyn@N;Demonbane Warrior@N
+Shadowmancer|r|Blasphemer of Zon Kuthon@N;Necromancer@N;Fiend Caller@N
+Shepherd|r|Priest of Sarenrae@N;Spirit Priest@N;Traveling Priest of Desna@N
+Songweaver|r|Troubadour@N;Maestro@N;Street Musician@N
+Stormshifter|r|Tempest Incarnate@N;Skin Shifter@N;Tree Singer@N
+Zephyr|r|Mixed Martial Artist@N;Black Belt@N;Martial Student@N
+Hexbinder|r|Curse Monger@N;Coven Aspirant@N;Spirit Binder@N
+Lion|m|Lion@B;Lion@M;Stone Lion@B
+Lion Packleader|r|Grisantian Lion@M2;Lion@M;Smilodon@B
+Ogre|r|Ogre Warrior@B;Ogre Boss@B;Ogre Glutton@B
+Ettin|m|Ettin@B;Two-Headed Troll@B;Athach@B
+Manticore|m|Manticore@B;Manticore@M;Manticore Paaridar@B
+Gnoll Battle Shaman|r|Kholo Bonekeeper@M;Kholo Cultist@B;Kholo Pragmatist@N
+Gnoll Hunter|m|Kholo Hunter@B;Kholo Hunter@M;Kholo Outrider@N
+Gnoll Frenzied One|r|Kholo Outrider@N;Kholo Sergeant@M;Hyaenodon@B
+Wolf|m|Wolf@B;Wolf@M;Warg@B
+Dire Wolf|m|Dire Wolf@B;Dire Wolf@M;Warg@B
+Dire Wolf Pack Leader|r|Warg@B;Witchwarg@M;Winter Wolf@B
+Spring Golem|r|Hippopotamus Topiary@M2;Wood Warden@B;Arboreal Warden@B
+Owlbear|m|Owlbear@B;Feathered Bear@B;Feathered Bear@M2
+Dryad|m|Dryad@B;Dryad@M;Dryad Queen@B
+Greater Dryad|r|Dryad Queen@B;Dryad Queen@M;Dryad@B
+Wondrous Dryad|r|Green Man@B;Arboreal Regent@B;Dryad Queen@B
+Snake Swarm|r|Rat Snake Swarm@B;Viper Swarm@M2;Viper Swarm@B
+Snake Swarm Horde|r|Viper Swarm@B;Viper Swarm@M2;Rat Snake Swarm@B
+Bug|r|Giant Fly@B;Giant Tick@B;Cockroach Swarm@B
+Giant Bug|r|Giant Cockroach@B;Giant Cockroach@M2;Flash Beetle@B
+Jacker Bug|r|Giant Tick@B;Giant Solifugid@B;Flash Beetle@B
+Bonfire Bug|r|Flash Beetle@B;Flash Beetle@M;Fire Jellyfish Swarm@B
+Toughrider Bug|r|Giant Stag Beetle@B;Giant Stag Beetle@M;Beetle Carapace@M2
+Acidshot Bug|r|Giant Dragonfly Nymph@B;Giant Whiptail Centipede@B;Flash Beetle@B
+Hivedriver Bug|r|Hive Mother@B;Ankhrav Hive Mother@M;Giant Wasp@B
+Maneater Bug|r|Giant Mantis@B;Deadly Mantis@B;Giant Mantis@M
+Thrum Bug|r|Giant Dragonfly@B;Giant Dragonfly@M2;Giant Wasp@B
+Rhino Bug|r|Ankhrav@B;Ankhrav@M;Giant Stag Beetle@B
+Spit Bug|r|Giant Maggot@B;Ankhrav@B;Giant Dragonfly Nymph@B
+Ballistic Bug|r|Ankhrav Hive Mother@M;Deadly Mantis@B;Hive Mother@B
+Vicejaw Bug|r|Giant Solifugid@B;Duneshaker Solifugid@B;Giant Stag Beetle@B
+Slug Swarm|r|Brood Leech Swarm@B;Brood Leech Swarm@M2;Giant Slug@B
+Clay Golem|r|Clay Effigy@B;Clay Effigy@M;Golem@M2
+Cockatrice|m|Cockatrice@B;Cockatrice@M;Basilisk@B
+Carrion Worm|r|Giant Whiptail Centipede@B;Cave Worm@M;Giant Leech@B
+Spider Swarm|m|Spider Swarm@B;Spider Swarm@M;Hunting Spider@B
+Spider Swarm Horde|r|Spider Swarm@M;Spider Swarm@B;Goliath Spider@B
+Lithogallus the Impeccable|r|Cockatrice@M;Cockatrice@B;Basilisk@B
+Book Mimic|r|Mimic@M2;Mimic@B;Animated Silverware Swarm@B
+Door Mimic|r|Mimic@M2;Mimic@B;Slithering Pit@B
+Clothing Mimic|r|Mimic@M2;Ittan-momen@B;Mimic@B
+Hallway Mimic|r|Slithering Pit@B;Mimic@B;Mimic@M2
+Treasure Chest Mimic|m|Mimic@B;Mimic@M2;Bauble Beast@B
+Shadow Dragon|r|Adult Umbral Dragon@B;Shadow Drake@B;Umbral Dragon@D
+Dune Stalker|r|Duneshaker Solifugid@B;Faceless Stalker@B;Desert Drake@B
+Giant Vulture|m|Giant Vulture@B;Terror Shrike@B;Eagle@B
+Chalice Beetle|r|Flash Beetle@M;Giant Stag Beetle@B;Beetle Carapace@M2
+Mummified Beast|r|Mummy Guardian@M;Bog Mummy@B;Mummy Guardian@B
+Sand Elemental|r|Sand Sentry@B;Sand Sentry@M2;Living Landslide@B
+Cactus Viper|r|Viper@B;Cactus Leshy@B;Giant Viper@B
+Elder Sand Shark|r|Megalodon@B;Megalodon@M;Great White Shark@B
+Flying Centipede|r|Giant Centipede@B;Giant Whiptail Centipede@B;Titan Centipede@B
+Giant Scorpion|m|Giant Scorpion@B;Giant Scorpion@M;Black Scorpion@B
+Sand Shark|r|Great White Shark@B;Great White Shark@M;Brine Shark@B
+Scarab Swarm|r|Cockroach Swarm@B;Cockroach Swarm@M2;Tick Swarm@B
+Scarab Swarm Horde|r|Trilobite Swarm@B;Cockroach Swarm@B;Army Ant Swarm@B
+Audun, Desert's Maw|r|Slithering Pit@B;Slithering Pit@M2;Purple Worm@B
+Sea Hag|m|Sea Hag@B;Sea Hag@M;Storm Hag@B
+Vesha the Beauty|r|Moon Hag@B;Blood Hag@B;Moon Hag@M2
+Green Hag|m|Green Hag@B;Annis Hag@B;Sweet Hag@M
+Night Hag|m|Night Hag@B;Moon Hag@B;Blood Hag@B
+Lizardfolk Reedstalker|r|Lizardfolk Scout@B;Lizardfolk Scout@M;Lizardfolk Defender@B
+Lizardfolk Broodguard|r|Lizardfolk Defender@B;Lizardfolk Defender@M;Lizardfolk Scout@B
+Lizardfolk Scalebreaker|r|Lizardfolk Defender@M;Lizardfolk Defender@B;Lizardfolk Scout@M
+Lizardfolk Shaman|r|Lizardfolk Stargazer@B;Lizardfolk Stargazer@M;Iruxi Masked Mummer@N
+Lizardfolk Hunter|r|Lizardfolk Scout@M;Lizardfolk Scout@B;Lizardfolk Defender@B
+Swamp Raptor|r|Velociraptor@B;Deinonychus@B;Velociraptor@M
+Hydra|m|Hydra@B;Hydra@M;Water Orm@B
+Bogleech|r|Giant Leech@B;Giant Leech@M2;Brood Leech Swarm@B
+Diretoad|r|Giant Toad@B;Giant Frog@B;Spear Frog@B
+Mist Wyrm|r|Bog Dragon@D;Water Orm@B;Sea Serpent@B
+Crabman|r|Reefclaw@B;Reefclaw@M;Giant Crab@B
+Crabman Brute|r|Giant Crab@B;Giant Crab@M2;Reefclaw@B
+Huskwalker|r|Draugr@B;Draugr@M2;Ravener Husk@B
+The Bog Tyrant|r|Giant Hermit Crab@B;Giant Crab@B;Kraken@B
+Croakoa Tadpole|r|Giant Frog@B;Tripkee Scout@B;Spear Frog@B
+Croakoa Brute|r|Boggard Warrior@B;Boggard Warrior@M;Giant Toad@B
+Croakoa Darter|r|Tripkee Scout@B;Tripkee Scout@M2;Spear Frog@B
+Croakoa Hunter|r|Boggard Scout@B;Boggard Scout@M;Tripkee Scout@B
+Croakoa Royal Defender|r|Boggard Warrior@M;Boggard Warrior@B;Boggard Swampseer@B
+Croakoa Brood Queen|r|Froghemoth@B;Boggard Swampseer@B;Giant Toad@B
+Croakoa Venomslicer|r|Spear Frog@B;Spear Frog@M2;Tripkee Scout@B
+Harpy|m|Harpy@B;Harpy@M;Stheno Harpist@B
+Wyvern|m|Wyvern@B;Wyvern@M;Wyvern@D
+Harpy Matriarch|r|Harpy@M;Stheno Harpist@B;Harpy@B
+Storm Giant|m|Storm Giant@B;Storm Lord@B;Cloud Giant@B
+Reef Shark|r|Brine Shark@B;Great White Shark@B;Brine Shark@M
+Hunter Shark|r|Great White Shark@B;Great White Shark@M;Megalodon@B
+Giant Shark|r|Megalodon@B;Megalodon@M;Great White Shark@B
+Whirling Gust|r|Air Wisp@B;Air Scamp@M;Living Whirlwind@B
+Howling Gale|r|Living Whirlwind@B;Living Whirlwind@M;Air Wisp@B
+Water Elemental|r|Living Waterfall@B;Living Waterfall@M;Elemental Tsunami@B
+Surging Tide|r|Elemental Tsunami@B;Elemental Tsunami@M;Living Waterfall@B
+Living Tornado|r|Elemental Hurricane@B;Elemental Hurricane@M;Living Whirlwind@B
+Elemental Spark|r|Spark Moth@M2;Spark Bat@B;Living Thunderclap@B
+Surging Bolt|r|Living Thunderclap@B;Living Thunderclap@M2;Spark Bat@B
+Water Weird|r|Water Orm@B;Water Wisp@B;Water Orm@M2
+Noble|m|Noble@N;Veteran Noble@N;Courtesan@N
+Commoner|m|Commoner@N;Farmer@N;Servant@N
+Guard|m|Guard@N;Palace Guard@N;Infantry Soldier@N
+Sage (Priest)|m|Sage@N;Priest of Sarenrae@N;Abbot of Abadar@N
+City Watch|r|Watch Officer@N;Gendarme@N;Guard@N
+Knight|m|Knight@N;Mage Knight@N;Tournament Combatant@N
+City Guard|r|Gendarme@N;Tidewater Guard@N;Guard@N
+Royal Guard|r|Palace Guard@N;Elven Court Guard@N;Bodyguard@N
+Knight Dragoon|r|Mage Knight@N;Equestrian Constable@N;Knight@N
+Spy|m|Spy@N;Master of Disguise@N;Accuser Agent@N
+Assassin|m|Assassin@N;Peerless Duelist@N;Leaping Thief@N
+Doppelganger|m|Doppelganger@B;Changeling Exile@B;Faceless Stalker@B
+Rakshasa|r|Raja Rakshasa@B;Raja-Krodha@M;Maharaja@B
+Legion Soldier|r|Infantry Soldier@N;Line Infantry (Troop)@N;Guard@N
+Legion General|r|Captain of The Guard@N;Warmonger@N;Despot@N
+Legion Veteran|r|Juggernaut@N;Siegebreaker@N;Infantry Soldier@N
+Legion Cavalry|r|Equestrian Constable@N;Heavy Cavalry (Troop)@N;Hellknight Cavalry Brigade@B
+Legion Siegeworks|r|Animated Trebuchet@B;Animated Trebuchet@M2;Artillerist@N
+Legion Captain|r|Standard Bearer@N;Drill Sergeant@N;Captain of The Guard@N
+Mote of Fire|r|Fire Wisp@B;Fire Wisp@M2;Fire Mephit@B
+Living Flame|r|Fire Mephit@B;Fire Scamp@M;Fire Wisp@B
+Roaring Blaze|r|Living Wildfire@B;Living Wildfire@M;Striding Fire@B
+Raging Inferno|r|Elemental Inferno@B;Elemental Inferno@M;Living Wildfire@B
+Firelord Blackflame|r|Ifrit@M;Efreeti@B;Striding Fire@B
+Fire Giant|m|Fire Giant@B;Fire Giant@M;Ash Giant@M2
+Steam Mephit|m|Steam Mephit@B;Fire Mephit@B;Water Mephit@B
+Fire Snake|r|Firewyrm@B;Firewyrm@M;Fire Yai@B
+Salamander|m|Salamander@B;Azer@B;Fire Yai@B
+Young Red Dragon|m|Young Red Dragon@B;Young Red Dragon@D;Adult Red Dragon@B
+Red Dragon|m|Adult Red Dragon@B;Adult Red Dragon@D;Ancient Red Dragon@B
+Brimstone Blasthand|r|Hryngar Bombardier@B;Hyrngar Bombardier@M;Dwarf Warrior@M
+Brimstone Blackguard|r|Dwarf Warrior@M;Hryngar Sharpshooter@B;Hryngar Taskmaster@B
+Cinderbelcher|r|Animated Furnace@B;Animated Furnace@M2;Filth Fire@B
+Brimstone Whipmaster|r|Hryngar Taskmaster@B;Hyrngar Taskmaster@M;Dwarf Warrior@M
+Iron Golem|r|Iron Warden@B;Iron Warden@M;Adamantine Engine@B
+Brimstone Scorchsmith|r|Dwarf Smith@N;Dwarf Stonecaster@M;Hryngar Bombardier@B
+Forge Tyrant Drunzir|r|Dwarf General@N;Hryngar Taskmaster@B;Dwarf Smith@N
+Iron Goat|r|Ringhorn Ram@B;Rosethorn Ram@B;Granite Glyptodont@B
+Remorhaz|m|Remorhaz@B;Frost Worm@B;Icewyrm@B
+Ice Troll|m|Ice Troll@M2;Frost Troll@B;Jotund Troll@B
+Yeti|m|Yeti@B;Yeti@M;Sasquatch@B
+Abominable Yeti|r|Yeti@M;Yeti@B;Sasquatch@B
+Young Remorhaz|r|Frost Worm@B;Ice Worm Swarm@B;Remorhaz@B
+Polar Bear|m|Polar Bear@B;Grizzly Bear@B;Cave Bear@B
+Mammoth|m|Mammoth@B;Mammoth@M;Frozen Mammoth@D
+Stone Giant|m|Stone Giant@B;Stone Giant@M;Cave Giant@B
+Frost Giant|m|Frost Giant@B;Frost Giant@M;Taiga Giant@B
+Winter Golem|r|Ice Sentinel@B;Icewyrm@B;Blizzardborn@B
+Elemental Frost|r|Blizzardborn@B;Ice Mephit@B;Blizzardborn@M2
+Walking Iceberg|r|Iceberg Clam@M2;Ice Sentinel@B;Living Boulder@B
+Living Glacier|r|Elemental Avalanche@B;Ice Sentinel@B;Elemental Avalanche@M
+Rimewisp|r|Ice Mephit@B;Water Wisp@B;Air Wisp@B
+Iskaryth the Frostborne|r|Adult White Dragon@B;Rime Dragon@D;Ancient White Dragon@B
+Vrock|m|Vrock@B;Babau@B;Nabasu@B
+Imp|m|Imp@B;Imp@M;Quasit@B
+Hezrou|m|Hezrou@B;Nabasu@B;Babau@B
+Hookspawn|r|Babau@B;Osyluth@B;Hamatula@B
+Nalfeshnee|m|Nalfeshnee@B;Hezrou@B;Vrock@B
+Quasit|m|Quasit@B;Imp@B;Dretch@B
+Lumbrax|r|Nabasu@B;Brimorak@B;Dretch@B
+Justiciar|r|Barbazu@B;Erinys@B;Osyluth@B
+Grumbulus|r|Dretch@B;Lemure@B;Imp@B
+Lashfiend|r|Erinys@B;Osyluth@B;Bebilith@B
+Pactmonger|r|Phistophilus@B;Phistophilus@M;Hellbound Attorney@B
+Overlord|r|Cornugon@B;Gelugon@B;Pit Fiend@B
+Executor|r|Pit Fiend@B;Cornugon@B;Gelugon@B
+Hierarch|r|Gelugon@B;Pit Fiend@B;Cornugon@B
+Vorgrath the Insatiable|r|Augnagar@B;Marilith@B;Shoggoth@B
+Cloud Giant|m|Cloud Giant@B;Cloud Giant@M;Storm Giant@B
+Adamantine Golem|r|Adamantine Engine@B;Adamant Sentinel@M2;Iron Warden@B
+Arbalest Scion|r|Clockwork Soldier@M2;Clockwork Soldier@B;Clockwork Spy@B
+Scourge Titan|r|Animated Colossus@M2;Animated Colossus@B;Kolyarut@B
+Spire Hulk|r|Stone Bulwark@B;Stone Bulwark@M;Iron Warden@B
+Halberdier Scion|r|Clockwork Soldier@B;Spiral Centurion@B;Clockwork Soldier@M2
+Spire Titan|r|Animated Colossus@B;Animated Colossus@M2;Marut@B
+Bladed Scion|r|Spiral Centurion@B;Spiral Centurion@M2;Clockwork Soldier@B
+Breaker Hulk|r|Champion Automaton@M2;Stone Bulwark@B;Iron Warden@B
+Scourge Hulk|r|Stalker Automaton@M2;Iron Warden@B;Stone Bulwark@B
+Breaker Titan|r|Marut@B;Kolyarut@B;Animated Colossus@B
+Naga Skeleton|r|Necrophidius@B;Skeletal Hulk@B;Guardian Naga@B
+Claw Swarm|r|Giant Crawling Hand@B;Crawling Hand@B;Clacking Skull Swarm@B
+Shield Guardian|r|Stone Bulwark@M;Iron Warden@M;Stone Bulwark@B
+Naga Warden|r|Guardian Naga@B;Spirit Naga@B;Lunar Naga@B
+Oni|r|Mountain Oni@M;Onidoshi@B;Caldera Oni@M
+Couatl|r|Quetz Couatl@B;Quetz Coatl@M;Mix Couatl@B
+Summer Golem|r|Radiant Warden@B;Radiant Warden@M2;Striding Fire@B
+Possessed Sword|r|Swordkeeper@B;Swordkeeper@M2;Animated Armor@B
+Animated Rug|r|Ittan-momen@B;Animated Broom@B;Animated Broom@M
+Animated Sword|r|Swordkeeper@M2;Swordkeeper@B;Animated Broom@B
+Animated Armor|m|Animated Armor@B;Animated Armor@M;Phantom Knight@B
+Possessed Armor|r|Phantom Knight@B;Phantom Knight@M;Animated Armor@B
+Animated Mirror|r|Glass Guardian@B;Animate Dream@B;Animated Statue@B
+Werebear|m|Werebear@B;Werebear@M;Grizzly Bear@B
+Wererat|m|Wererat@B;Wererat@M;Ratfolk Grenadier@B
+Werewolf|m|Werewolf@B;Werewolf@M;Warg@B
+Wereboar|m|Wereboar@B;Daeodon@B;Boar@B
+Nightmare|m|Nightmare@B;Nightmare@M;Greater Nightmare@B
+Flesh Golem|r|Charnel Creation@B;Charnel Creation@M;Skinstitch@B
+Autumn Golem|r|Scarecrow@B;Scarecrow@M;Arboreal Reaper@B
+Vampire Outlander|r|Vrykolakas Master@B;Nosferatu Malefactor@B;Vampire Mastermind@B
+Vampire Spawn|r|Vampire Spawn Rogue@B;Vampire Servitor@M;Vrykolakas Spawn@B
+Vampire|r|Vampire Mastermind@B;Vampire Count@B;Vampire Mastermind@M
+Vampire Thinblood|r|Vampire Servitor@M;Nosferatu Thrall@B;Vampire Spawn Rogue@B
+Vampire Gorger|r|Vrykolakas Ancient@B;Nosferatu Overlord@B;Nosferatu Overlord@M2
+Timberwolf|r|Wolf@M;Warg@B;Wolf@B
+Blood Thrall|r|Nosferatu Thrall@B;Nosferatu Thrall@M2;Vrykolakas Spawn@B
+Gargoyle|m|Gargoyle@B;Gargoyle@M;Stone Lion@B
+Bloodstain|r|Living Graffiti (Blood)@B;Blood Painter@B;Carnivorous Blob@B
+Drow Scout|r|Elf Ranger@M;Elf Rogue@B;Fetchling Scout@B
+Drow Elite Warrior|r|Elf Fighter@B;Munavri Spellblade@B;Elf Rogue@B
+Drow Warrior|r|Elf Rogue@B;Elf Fighter@B;Elf Ranger@M
+Drider|m|Drider@B;Jorogumo@B;Goliath Spider@B
+Drow Priestess|r|Elven Priestess@B;Jorogumo@B;Dhampir Wizard@B
+Infested Husk|r|Ravener Husk@B;Ravener Husk@M2;Draugr@B
+Blood Spider|r|Hunting Spider@M;Ether Spider@B;Hunting Spider@B
+Drow Arachnomancer|r|Jorogumo@B;Elven Priestess@B;Jorogumo@M2
+Deep Gnome|r|Deep Gnome Scout@B;Umbral Scout@M;Deep Gnome Warrior@B
+Deep Gnome Tinkerer|r|Deep Gnome Rockwarden@B;Umbral Rockwarden@M;Deep Gnome Scout@B
+Fungusfolk Sentinel|r|Fungus Leshy@B;Fungus Leshy@M;Myceloid@B
+Fungusfolk Psychotrope|r|Myceloid@B;Myceloid@M2;Mu Spore@B
+Fungusfolk Sovereign|r|Mu Spore@B;Basidirond@B;Myceloid@B
+Grick Wormlet|r|Bore Worm Swarm@B;Necril Worm Swarm@B;Giant Leech@B
+Grick|r|Cave Worm@M;Azure Worm@B;Neothelid@B
+Deep Giants|r|Cave Giant@B;Cave Giant@M2;Tomb Giant@B
+Grick Alpha|r|Neothelid@B;Cave Worm@M;Purple Worm@B
+Deep Cnidar|r|Giant Jellyfish@B;Giant Jellyfish@M2;Fire Jellyfish Swarm@B
+Troglodyte|r|Xulgath Warrior@B;Xulgath Warrior@M;Xulgath Skulker@B
+Troglodyte Tunneler|r|Xulgath Skulker@B;Xulgath Skulker@M;Xulgath Warrior@B
+Troglodyte Champion|r|Xulgath Leader@B;Xulgath Leader@M;Xulgath Warrior@B
+Troglodyte Swollen|r|Xulgath Leader@M;Gurgist Mauler@B;Xulgath Leader@B
+Troglodyte Muckthrower|r|Xulgath Skulker@M;Xulgath Skulker@B;Xulgath Warrior@B
+Troglodyte Screecher|r|Xulgath Warrior@M;Xulgath Warrior@B;Xulgath Skulker@B
+Fungal Hulk|r|Basidirond@B;Mu Spore@B;Myceloid@B
+Gloom Moth|r|Mothman@B;Shantak@B;Giant Dragonfly@B
+It That Hurls|r|Living Boulder@B;Xulgath Leader@B;Living Boulder@M2
+Flaming Skull|m|Flaming Skull@B;Flaming Skull@M2;Sorcerous Skull Swarm@B
+Banshee|m|Banshee@B;Banshee@M;Ghost Commoner@B
+Ghost|r|Ghost Commoner@B;Ghost Commoner@M;Ghost Mage@B
+Grave Crow|r|Raven@B;Raven Swarm@B;Trained Raven@M2
+Grave Squire|r|Skeleton Infantry@M2;Skeleton Infantry@B;Skeletal Champion@B
+Hollow Knight|r|Phantom Knight@M;Phantom Knight@B;Graveknight@B
+Death Knight Baron|r|Graveknight Captain@M2;Graveknight@B;Graveknight@M
+Death Knight|r|Graveknight@B;Graveknight@M;Graveknight Champion@M2
+Death Knight Regent|r|Graveknight Warmaster@M2;Graveknight@B;Graveknight@M
+Death Knight Marshal|r|Graveknight Champion@M2;Graveknight@M;Graveknight@B
+Cranial Hound|r|Intellect Devourer@B;Brain Collector@B;Hound Of Tindalos@B
+Psionic Despot|r|Alghollthu Master@B;Veiled Master@B;Brain Collector@B
+Psionic Scourge|r|Brain Collector@B;Intellect Devourer@B;Veiled Master@B
+Cerebral Hulks|r|Gug@B;Gug@M2;Neothelid@B
+Gibbering Mouther|m|Gibbering Mouther@B;Carnivorous Blob@B;Shoggoth@B
+Otyugh|m|Otyugh@B;Gogiteth@B;Slurk@B
+Chimera|m|Chimera@M;Chimera (Red Dragon)@B;Manticore@B
+Lidless Pest|r|Augur@M2;Augur@B;Gimmerling@B
+Farseer|r|Xoarian@M;Hyakume@M2;Augur@B
+Gnosis (Dark Oracle)|r|Augur@B;Augur@M2;Hyakume@B
+Ocular Tyrant|r|Hyakume@M2;Hyakume@B;Gogiteth@B
+Hollow Tyrant|r|Gosreg@B;Gosreg@M;Hyakume@B
+Eye Sprout|r|Mandragora@B;Mandragora@M2;Drainberry Bush@B

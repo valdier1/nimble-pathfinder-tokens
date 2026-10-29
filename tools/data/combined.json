@@ -1,0 +1,6179 @@
+[
+{
+"name": "Goblin",
+"level": "1/2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p4",
+"GMG 3.0 p6",
+"GMG 3.0 p16",
+"M&M v0.1 p4"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Goblin",
+"art_hint": ""
+},
+{
+"name": "Goblin Minion",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p6",
+"GMG 3.0 p16",
+"M&M v0.1 p4"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Goblin Minion",
+"art_hint": ""
+},
+{
+"name": "Goblin Ratrider",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p6",
+"GMG 3.0 p16",
+"M&M v0.1 p4"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Goblin Ratrider",
+"art_hint": ""
+},
+{
+"name": "Giant Spider",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p7",
+"GMG 3.0 p19",
+"M&M v0.1 p81"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Giant Spider",
+"art_hint": ""
+},
+{
+"name": "Krogg, Goblin King",
+"level": "2",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p8",
+"M&M v0.1 p4"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Krogg, Goblin King",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Giant Venus Flytrap",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p9"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Giant Venus Flytrap",
+"art_hint": ""
+},
+{
+"name": "Briarbane Seedling",
+"level": "1/2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p9",
+"GMG 3.0 p18",
+"M&M v0.1 p26"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Briarbane Seedling",
+"art_hint": ""
+},
+{
+"name": "Briarbane Rootbreaker",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p9",
+"GMG 3.0 p18",
+"M&M v0.1 p26"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Briarbane Rootbreaker",
+"art_hint": ""
+},
+{
+"name": "Pinky",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p9"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Pinky",
+"art_hint": ""
+},
+{
+"name": "Greenthumb, Lichling",
+"level": "3",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p10"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Greenthumb, Lichling",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Kobold Minion",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p15",
+"M&M v0.1 p6"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Kobold Minion",
+"art_hint": ""
+},
+{
+"name": "Kobold",
+"level": "1/3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p15",
+"M&M v0.1 p6"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Kobold",
+"art_hint": ""
+},
+{
+"name": "Kobold Sneak",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p15",
+"M&M v0.1 p6"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Kobold Sneak",
+"art_hint": ""
+},
+{
+"name": "Kobold Clanger",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p15",
+"M&M v0.1 p6"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Kobold Clanger",
+"art_hint": ""
+},
+{
+"name": "Kobold Trapper",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p15",
+"M&M v0.1 p6"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Kobold Trapper",
+"art_hint": ""
+},
+{
+"name": "Kobold Denwarden",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p15",
+"M&M v0.1 p6"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Kobold Denwarden",
+"art_hint": ""
+},
+{
+"name": "Bandit Minion",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"M&M v0.1 p18"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Bandit Minion",
+"art_hint": "NPC Core"
+},
+{
+"name": "Bandit",
+"level": "1/3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"GMG 3.0 p50",
+"M&M v0.1 p18"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Bandit",
+"art_hint": "NPC Core"
+},
+{
+"name": "Bandit Hunter",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"M&M v0.1 p18"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Bandit Hunter",
+"art_hint": "NPC Core"
+},
+{
+"name": "Bandit Bruiser",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"GMG 3.0 p50",
+"M&M v0.1 p18"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Bandit Bruiser",
+"art_hint": "NPC Core"
+},
+{
+"name": "Bandit Assassin",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"GMG 3.0 p50",
+"M&M v0.1 p18"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Bandit Assassin",
+"art_hint": "NPC Core"
+},
+{
+"name": "Bandit Mage",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Bandit Mage",
+"art_hint": "NPC Core"
+},
+{
+"name": "Bandit Captain",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"M&M v0.1 p18"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Bandit Captain",
+"art_hint": "NPC Core"
+},
+{
+"name": "Bugbear",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"M&M v0.1 p4"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Bugbear",
+"art_hint": ""
+},
+{
+"name": "Goblin Taskmaster",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"M&M v0.1 p4"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Goblin Taskmaster",
+"art_hint": ""
+},
+{
+"name": "Snakeman Minion",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"M&M v0.1 p39"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Snakeman Minion",
+"art_hint": ""
+},
+{
+"name": "Snakeman",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"M&M v0.1 p39"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Snakeman",
+"art_hint": ""
+},
+{
+"name": "Cobra Captain",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"M&M v0.1 p39"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Cobra Captain",
+"art_hint": ""
+},
+{
+"name": "Giant Cobra",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p16",
+"M&M v0.1 p39"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Giant Cobra",
+"art_hint": ""
+},
+{
+"name": "Gray Ooze",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p33"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Gray Ooze",
+"art_hint": ""
+},
+{
+"name": "Ochre Jelly",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p33"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Ochre Jelly",
+"art_hint": ""
+},
+{
+"name": "Black Pudding",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p33"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Black Pudding",
+"art_hint": ""
+},
+{
+"name": "Elder Ooze",
+"level": "12",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p33"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Elder Ooze",
+"art_hint": ""
+},
+{
+"name": "Ooze Minion",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p33"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Ooze Minion",
+"art_hint": ""
+},
+{
+"name": "Tiny Mimic",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Tiny Mimic",
+"art_hint": ""
+},
+{
+"name": "Small Mimic",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Small Mimic",
+"art_hint": ""
+},
+{
+"name": "Medium Mimic",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Medium Mimic",
+"art_hint": ""
+},
+{
+"name": "Gnoll",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p24"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Gnoll",
+"art_hint": ""
+},
+{
+"name": "Gnoll Packleader",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p24"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Gnoll Packleader",
+"art_hint": ""
+},
+{
+"name": "Worg",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p22"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Worg",
+"art_hint": ""
+},
+{
+"name": "Blue Drake",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p47"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Blue Drake",
+"art_hint": ""
+},
+{
+"name": "Griffon",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p22"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Griffon",
+"art_hint": ""
+},
+{
+"name": "Bulette",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p22"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Bulette",
+"art_hint": ""
+},
+{
+"name": "Troll",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p22"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Troll",
+"art_hint": ""
+},
+{
+"name": "Hill Giant",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p23"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Hill Giant",
+"art_hint": ""
+},
+{
+"name": "Roc",
+"level": "17",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p22"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Roc",
+"art_hint": ""
+},
+{
+"name": "Stirge",
+"level": "1/2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p35"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Stirge",
+"art_hint": ""
+},
+{
+"name": "Greater Stirge",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p17",
+"M&M v0.1 p35"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Greater Stirge",
+"art_hint": ""
+},
+{
+"name": "Skeleton",
+"level": "1/3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p85"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Skeleton",
+"art_hint": ""
+},
+{
+"name": "Zombie",
+"level": "1/2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p85"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Zombie",
+"art_hint": ""
+},
+{
+"name": "Ghoul",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p85"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Ghoul",
+"art_hint": ""
+},
+{
+"name": "Specter",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p86"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Specter",
+"art_hint": ""
+},
+{
+"name": "Ogre Zombie",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p85"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Ogre Zombie",
+"art_hint": ""
+},
+{
+"name": "Mummy",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p41"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Mummy",
+"art_hint": ""
+},
+{
+"name": "Giant Zombie",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p85"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Giant Zombie",
+"art_hint": ""
+},
+{
+"name": "Wraith",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p86"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Wraith",
+"art_hint": ""
+},
+{
+"name": "Mummy Lord",
+"level": "21",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p41"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Mummy Lord",
+"art_hint": ""
+},
+{
+"name": "Briarbane Acidpod",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p26"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Briarbane Acidpod",
+"art_hint": ""
+},
+{
+"name": "Briarbane Tangler",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p26"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Briarbane Tangler",
+"art_hint": ""
+},
+{
+"name": "Duskprowler",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p27"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Duskprowler",
+"art_hint": ""
+},
+{
+"name": "Basilisk",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p35"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Basilisk",
+"art_hint": ""
+},
+{
+"name": "Druid",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p18",
+"M&M v0.1 p27"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Druid",
+"art_hint": "NPC Core"
+},
+{
+"name": "Cultist",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Cultist",
+"art_hint": "NPC Core"
+},
+{
+"name": "Fanatic",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Fanatic",
+"art_hint": "NPC Core"
+},
+{
+"name": "Doomsayer",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Doomsayer",
+"art_hint": "NPC Core"
+},
+{
+"name": "Stenchling",
+"level": "1/2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19",
+"GMG 3.0 p56",
+"M&M v0.1 p63"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Stenchling",
+"art_hint": ""
+},
+{
+"name": "Spiny Fiend",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19",
+"M&M v0.1 p63"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Spiny Fiend",
+"art_hint": ""
+},
+{
+"name": "Glabrezu",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19",
+"GMG 3.0 p56",
+"M&M v0.1 p63"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Glabrezu",
+"art_hint": ""
+},
+{
+"name": "Ettercap",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19",
+"M&M v0.1 p81"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Ettercap",
+"art_hint": ""
+},
+{
+"name": "Nestweaver",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19",
+"M&M v0.1 p81"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Nestweaver",
+"art_hint": ""
+},
+{
+"name": "Umber Hulk",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19",
+"M&M v0.1 p81"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Umber Hulk",
+"art_hint": ""
+},
+{
+"name": "Cloaker",
+"level": "13",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19",
+"M&M v0.1 p81"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Cloaker",
+"art_hint": ""
+},
+{
+"name": "Great Worm",
+"level": "16",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p19",
+"M&M v0.1 p81"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Great Worm",
+"art_hint": ""
+},
+{
+"name": "Pudge the Blunderer",
+"level": "2",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p21"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Pudge the Blunderer",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Kelebek, Entomancer",
+"level": "3",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p21"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Kelebek, Entomancer",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Poppy, Giant Stinkbug",
+"level": "3",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p21"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Poppy, Giant Stinkbug",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Grimbeak, the Unyielding",
+"level": "3",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p22"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Grimbeak, the Unyielding",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Thorn Quickblade",
+"level": "4",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p22"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Thorn Quickblade",
+"art_hint": "NPC Core"
+},
+{
+"name": "Ravager of the Lowlands",
+"level": "5",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p23"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Ravager of the Lowlands",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Queen Aranya, Broodmother",
+"level": "6",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p23"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Queen Aranya, Broodmother",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Nalzar, Apex Predator",
+"level": "6",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p24"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Nalzar, Apex Predator",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Florindris, Bane of the Forest",
+"level": "7",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p24"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Florindris, Bane of the Forest",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Vael, Undying Necromancer",
+"level": "9",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p25"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Vael, Undying Necromancer",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "General Flameheart",
+"level": "8",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p25"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "General Flameheart",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Elemental Fireling",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p25"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Titan of the Deep Woods",
+"level": "10",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p26"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Titan of the Deep Woods",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Ul'vek, Psionic Despot",
+"level": "11",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p26"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Ul'vek, Psionic Despot",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Dravok, All-Seeing Tyrant",
+"level": "12",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p27"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Dravok, All-Seeing Tyrant",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Azriel, Lord of Pain & Flame",
+"level": "14",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p27"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Azriel, Lord of Pain & Flame",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Gloomwing the Cruel",
+"level": "15",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p28"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Gloomwing the Cruel",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Alaric Draegoth, the Crimson Count",
+"level": "16",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p28",
+"M&M v0.1 p77"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Alaric Draegoth, the Crimson Count",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Caerys, the Hollow Star",
+"level": "20",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p29"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Caerys, the Hollow Star",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Rat Swarm",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p44",
+"M&M v0.1 p35"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Rat Swarm",
+"art_hint": ""
+},
+{
+"name": "Rat Prince",
+"level": "3",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p44"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Rat Prince",
+"art_hint": ""
+},
+{
+"name": "Wax Golem",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p46",
+"M&M v0.1 p34"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Wax Golem",
+"art_hint": ""
+},
+{
+"name": "Giant Slug Minion",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p46"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Giant Slug Minion",
+"art_hint": ""
+},
+{
+"name": "Scorpion Queen",
+"level": "5",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p48"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Scorpion Queen",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Lind Worm",
+"level": "4",
+"solo": true,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p52",
+"M&M v0.1 p39"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Lind Worm",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Bog Giant",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p54"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Dregatha, Thrice-Chinned",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p54"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Dregatha, Thrice-Chinned",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Incubus/Succubus",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 p56",
+"M&M v0.1 p63"
+],
+"status": "In Nimble, not mapped",
+"pack": "core",
+"nimble_name": "Incubus/Succubus",
+"art_hint": ""
+},
+{
+"name": "Alaric Draegoth's Blood Bat",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 (inline summon) p–"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Alaric Draegoth's Blood Bat",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Queen Aranya's Spiderling Minion",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 (inline summon) p–"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Queen Aranya's Spiderling Minion",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Titan's Skeleton Minion",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"GMG 3.0 (inline summon) p–"
+],
+"status": "In Nimble, not mapped",
+"pack": "legendary",
+"nimble_name": "Titan's Skeleton Minion",
+"art_hint": "Nimble has its own art?"
+},
+{
+"name": "Nilbog",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p4"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Bugbear Chieftain",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p4"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Goblin Pit Trap",
+"level": "1",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p5"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Tripping Hazards",
+"level": "1/2",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p5"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Ratapult",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p5"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Goblin Spikefield",
+"level": "?",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p5"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vermis & Skittersnack",
+"level": "3",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p5"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Kobold Dragon Relic",
+"level": "?",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p6"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Narbles & His Stack of Friends",
+"level": "2",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p7"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Cricket & Hamshake",
+"level": "5",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p7"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Faerie Trickmage",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p9"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Pixie",
+"level": "1/2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p9"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Faerie",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p9"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Faerie Troubadour",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p9"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Faerie Merrymaker",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p9"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Satyr",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p10"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Unicorn",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p10"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Faerie Dragon",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p10"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Centaur",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p10"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Will-o'-Wisp",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p11"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Nixie",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p11"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Brollachan",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p11"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Redcap",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p11"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Jabberwocky",
+"level": "19",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p11"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gremlin",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p12"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gremlin Wrestler",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p12"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gremlin Roastmaster",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p12"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Bogey",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p12"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gremlin Minion",
+"level": "minion",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p13"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Razzle, Gremlin Iconoclast",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p13"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Mav, the Winter Queen",
+"level": "10",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p14"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Orc Raider",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p16"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Warpig",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p16"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Orc Battlebard",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p16"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Orc",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p16"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Orc Elite",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p16"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Orc Warchief",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p16"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "High Orc Flamecaller",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p16"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Orc Giant",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p16"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Flamebound Ancestor",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p17"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hordecaller Kerem",
+"level": "10",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p17"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Bandit Ice Mage",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p18"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Bandit Fire Mage",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p18"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Berserker",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Berserker",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Berserker",
+"level": "4",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Berserker",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "The Cheat",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "The Cheat",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "The Cheat",
+"level": "4",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "The Cheat",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Commander",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Commander",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Commander",
+"level": "4",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Commander",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Hunter",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Hunter",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Hunter",
+"level": "4",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Hunter",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p19"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Mage",
+"level": "?",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Mage",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Oathsworn",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Oathsworn",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Oathsworn",
+"level": "64",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Oathsworn",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Shadowmancer",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Shadowmancer",
+"level": "4",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Shadowmancer",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Shadowmancer",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Shepherd",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Shepherd",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Shepherd",
+"level": "4",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Shepherd",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Songweaver",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Songweaver",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Songweaver",
+"level": "4",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Songweaver",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p20"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Stormshifter",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Stormshifter",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Stormshifter",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Zephyr",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Zephyr",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Zephyr",
+"level": "64",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Zephyr",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Hexbinder",
+"level": "2",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Hexbinder",
+"level": "6",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Hexbinder",
+"level": "4",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Hexbinder",
+"level": "10",
+"solo": false,
+"kind": "enemy hero",
+"sources": [
+"M&M v0.1 p21"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Lion",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p22"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lion Packleader",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p22"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Ogre",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p22"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Ettin",
+"level": "9",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p22"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Manticore",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p22"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Ettin",
+"level": "3",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p22"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gnoll Battle Shaman",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p24"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gnoll Hunter",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p24"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gnoll Frenzied One",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p24"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Briarbane Treant",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p26"
+],
+"status": "Mapped",
+"pack": "core",
+"nimble_name": "Briarbane Treant",
+"art_hint": ""
+},
+{
+"name": "Tanglefoot Trap",
+"level": "1/2",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p26"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Briarbane Pollinator",
+"level": "?",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p26"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Wolf",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p27"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Dire Wolf",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p27"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Dire Wolf Pack Leader",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p27"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Spring Golem",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p27"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Owlbear",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p27"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Dryad",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p28"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Greater Dryad",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p28"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Wondrous Dryad",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p28"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Snake Swarm",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p29"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Snake Swarm Horde",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p29"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Jacker Bug",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p30"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Bug",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p30"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Giant Bug",
+"level": "1/3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p30"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Bonfire Bug",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p30"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Toughrider Bug",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p30"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Acidshot Bug",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p30"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hivedriver Bug",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p30"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Maneater Bug",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p31"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Thrum Bug",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p31"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Rhino Bug",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p31"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Spit Bug",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p31"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Ballistic Bug",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p31"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vicejaw Bug",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p31"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Slug Swarm",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p32"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Minor Slime Dispenser",
+"level": "1",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p33"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Major Slime Dispenser",
+"level": "4",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p33"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Shard-Covered Floor",
+"level": "1/hero",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p33"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Spinning Blades",
+"level": "2",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p33"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Clay Golem",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p34"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Cockatrice",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p35"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Carrion Worm",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p35"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Spider Swarm",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p35"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Spider Swarm Horde",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p35"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lithogallus the Impeccable",
+"level": "1",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p35"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Book Mimic",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p36"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Door Mimic",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p36"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Clothing Mimic",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p36"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hallway Mimic",
+"level": "x",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p36"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Treasure Chest Mimic",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p36"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Shadow Dragon",
+"level": "8",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p38"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Shadow Sand",
+"level": "1",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p38"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Nightmare Mist",
+"level": "3",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p38"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Dune Stalker",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Giant Vulture",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Chalice Beetle",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Mummified Beast",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Sand Elemental",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Cactus Viper",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Elder Sand Shark",
+"level": "12",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Flying Centipede",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Giant Scorpion",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Sand Shark",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p40"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Scarab Swarm",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p41"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Scarab Swarm Horde",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p41"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Audun, Desert's Maw",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p41"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Sea Hag",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p42"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vesha the Beauty",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p42"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Green Hag",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p42"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Night Hag",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p42"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lizardfolk Reedstalker",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p44"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lizardfolk Broodguard",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p44"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lizardfolk Scalebreaker",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p44"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lizardfolk Shaman",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p44"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lizardfolk Hunter",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p44"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Swamp Raptor",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p44"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hydra",
+"level": "13",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p44"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Bogleech",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p45"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Diretoad",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p45"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Mist Wyrm",
+"level": "9",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p45"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Crabman",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p45"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Crabman Brute",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p45"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Huskwalker",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p45"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "The Bog Tyrant",
+"level": "5",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p45"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Croakoa Tadpole",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Croakoa Brute",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Croakoa Darter",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Croakoa Hunter",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Croakoa Royal Defender",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Bog Spikes",
+"level": "?",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Muck Net Trap",
+"level": "?",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Croakoa Brood Queen",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Writhing Balloons",
+"level": "?",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Croakoa Venomslicer",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p46"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Harpy",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p47"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Wyvern",
+"level": "11",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p47"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Harpy Matriarch",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p47"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Storm Giant",
+"level": "19",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p47"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Reef Shark",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hunter Shark",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Giant Shark",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Whirling Gust",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Howling Gale",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Water Elemental",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Surging Tide",
+"level": "16",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Living Tornado",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Elemental Spark",
+"level": "1/2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Surging Bolt",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Water Weird",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p48"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Noble",
+"level": "1/4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p50"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Commoner",
+"level": "1/8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p50"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Guard",
+"level": "1/4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p50"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Sage (Priest)",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p50"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "City Watch",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p50"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Knight",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p50"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "City Guard",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p50"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Royal Guard",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p50"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Knight Dragoon",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p50"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Spy",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p51"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Assassin",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p51"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Doppelganger",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p51"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Rakshasa",
+"level": "9",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p51"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Legion Soldier",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p52"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Legion General",
+"level": "11",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p52"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Legion Veteran",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p52"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Legion Cavalry",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p52"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Legion Siegeworks",
+"level": "12",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p52"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Legion Captain",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p52"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Mote of Fire",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p53"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Living Flame",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p53"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Roaring Blaze",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p53"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Raging Inferno",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p53"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Firelord Blackflame",
+"level": "9",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p53"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Fire Giant",
+"level": "15",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p54"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Steam Mephit",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p54"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Fire Snake",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p54"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Salamander",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p54"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Young Red Dragon",
+"level": "6",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p55"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Red Dragon",
+"level": "12",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p55"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Brimstone Blasthand",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p56"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Brimstone Blackguard",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p56"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Cinderbelcher",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p56"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Brimstone Whipmaster",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p56"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Iron Golem",
+"level": "20",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p56"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Brimstone Scorchsmith",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p56"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Forge Tyrant Drunzir",
+"level": "10",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p56"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Iron Goat",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p58"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Remorhaz",
+"level": "17",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p58"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Ice Troll",
+"level": "13",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p58"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Yeti",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p58"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Abominable Yeti",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p58"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Young Remorhaz",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p58"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Polar Bear",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p59"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Mammoth",
+"level": "11",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p59"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Boulder Run",
+"level": "3",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p59"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Avalanche!",
+"level": "8",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p59"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Stone Giant",
+"level": "12",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p59"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Frost Giant",
+"level": "13",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p60"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Winter Golem",
+"level": "12",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p60"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Elemental Frost",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p60"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Walking Iceberg",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p60"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Living Glacier",
+"level": "11",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p60"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Rimewisp",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p60"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Elemental Frost",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p60"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Iskaryth the Frostborne",
+"level": "8",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p61"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vrock",
+"level": "11",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p63"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Imp",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p63"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hezrou",
+"level": "13",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p63"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hookspawn",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p63"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Nalfeshnee",
+"level": "19",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p63"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Quasit",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p64"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lumbrax",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p64"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Justiciar",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p64"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Grumbulus",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p64"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lashfiend",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p64"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Pactmonger",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p64"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Overlord",
+"level": "15",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p64"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Executor",
+"level": "18",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p64"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hierarch",
+"level": "13",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p64"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vorgrath the Insatiable",
+"level": "14",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p65"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Cloud Giant",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p67"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Adamantine Golem",
+"level": "22",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p67"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Arbalest Scion",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p69"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Scourge Titan",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p69"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Spire Hulk",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p69"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Halberdier Scion",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p69"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Spire Titan",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p69"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Bladed Scion",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p69"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Breaker Hulk",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p69"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Scourge Hulk",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p69"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Breaker Titan",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p69"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Naga Skeleton",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p70"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Claw Swarm",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p70"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Shield Guardian",
+"level": "12",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p70"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Naga Warden",
+"level": "13",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p70"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Oni",
+"level": "7",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p72"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Couatl",
+"level": "9",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p72"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Summer Golem",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p72"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Possessed Sword",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p73"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Animated Rug",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p73"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Animated Sword",
+"level": "1/2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p73"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Animated Armor",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p73"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Possessed Armor",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p73"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Animated Mirror",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p73"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Werebear",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p74"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Wererat",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p74"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Werewolf",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p74"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Wereboar",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p74"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Nightmare",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p74"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Flesh Golem",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p74"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Autumn Golem",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p74"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vampire Outlander",
+"level": "17",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p75"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vampire Spawn",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p75"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vampire",
+"level": "19",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p75"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vampire Thinblood",
+"level": "14",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p75"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Vampire Gorger",
+"level": "15",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p75"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Timberwolf",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p76"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Blood Thrall",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p76"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gargoyle",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p76"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Bloodstain",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p76"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Drow Scout",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p79"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Drow Elite Warrior",
+"level": "9",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p79"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Drow Warrior",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p79"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Drider",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p79"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Drow Priestess",
+"level": "16",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p79"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Infested Husk",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p79"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Blood Spider",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p79"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Drow Arachnomancer",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p79"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Ooh, Shiny!",
+"level": "2",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p80"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Deep Gnome",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p80"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Deep Gnome Tinkerer",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p80"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": "NPC Core"
+},
+{
+"name": "Whoops, a Cave-in!",
+"level": "4",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p80"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Fungusfolk Sentinel",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p80"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Fungusfolk Psychotrope",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p80"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Fungusfolk Sovereign",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p80"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Funnel Webs",
+"level": "2",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p81"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Giant Cobweb",
+"level": "2",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p81"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Grick Wormlet",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p81"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Grick",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p81"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Deep Giants",
+"level": "13",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p81"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Grick Alpha",
+"level": "12",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p81"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Deep Cnidar",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p81"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Troglodyte",
+"level": "1/3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p83"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Troglodyte Tunneler",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p83"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Troglodyte Champion",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p83"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Troglodyte Swollen",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p83"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Troglodyte Muckthrower",
+"level": "2",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p83"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Troglodyte Screecher",
+"level": "3",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p83"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Fungal Hulk",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p84"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gloom Moth",
+"level": "6",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p84"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "It That Hurls",
+"level": "4",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p84"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Flaming Skull",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p85"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Banshee",
+"level": "3",
+"solo": true,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p86"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Ghost",
+"level": "8",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p86"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Grave Crow",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p87"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Grave Squire",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p87"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hollow Knight",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p87"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Death Knight Baron",
+"level": "16",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p87"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Death Knight",
+"level": "9",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p87"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Death Knight Regent",
+"level": "20",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p87"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Death Knight Marshal",
+"level": "12",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p87"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Cranial Hound",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p89"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Psionic Despot",
+"level": "18",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p89"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Psionic Scourge",
+"level": "12",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p89"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Cerebral Hulks",
+"level": "16",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p89"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gibbering Mouther",
+"level": "4",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p90"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Dampening Bell",
+"level": "3",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p90"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Otyugh",
+"level": "10",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p90"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Chimera",
+"level": "11",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p90"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Suspension Vat",
+"level": "1",
+"solo": false,
+"kind": "hazard",
+"sources": [
+"M&M v0.1 p90"
+],
+"status": "Hazard / trap",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Lidless Pest",
+"level": "1",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p91"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Farseer",
+"level": "7",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p91"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Gnosis (Dark Oracle)",
+"level": "5",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p91"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Ocular Tyrant",
+"level": "18",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p91"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Hollow Tyrant",
+"level": "20",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p91"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+},
+{
+"name": "Eye Sprout",
+"level": "?",
+"solo": false,
+"kind": "creature",
+"sources": [
+"M&M v0.1 p91"
+],
+"status": "Not in Nimble yet",
+"pack": "",
+"nimble_name": "",
+"art_hint": ""
+}
+]

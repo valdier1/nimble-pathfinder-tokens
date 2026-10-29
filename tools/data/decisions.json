@@ -1,0 +1,292 @@
+{
+ "picks": {
+  "Krogg, Goblin King": [
+   "npc-core",
+   "assets/tokens/big-boss-goblin.webp"
+  ],
+  "Bandit Assassin": [
+   "npc-core",
+   "assets/tokens/saboteur.webp"
+  ],
+  "Doomsayer": [
+   "npc-core",
+   "assets/tokens/cult-leader.webp"
+  ],
+  "Pinky": [
+   "npc-core",
+   "assets/tokens/goblin-chef.webp"
+  ],
+  "Fanatic": [
+   "npc-core",
+   "assets/tokens/cult-leader.webp"
+  ],
+  "Dregatha, Thrice-Chinned": [
+   "custom",
+   "threechinnedhagironrimmed"
+  ],
+  "Faerie Troubadour": [
+   "bestiaries",
+   "tokens/divine/azata/lyrakien.webp"
+  ],
+  "Faerie Merrymaker": [
+   "bestiaries",
+   "tokens/fey/fairy/pixie.webp"
+  ],
+  "Gremlin Roastmaster": [
+   "monster-core",
+   "assets/tokens/gremlin-mitflit.webp"
+  ],
+  "Bandit Ice Mage": [
+   "custom",
+   "banditicemage"
+  ],
+  "Bandit Fire Mage": [
+   "custom",
+   "banditfiremage"
+  ],
+  "Berserker": [
+   "npc-core",
+   "assets/tokens/siegebreaker.webp"
+  ],
+  "Stormshifter": [
+   "npc-core",
+   "assets/tokens/skin-shifter.webp"
+  ],
+  "Zephyr": [
+   "npc-core",
+   "assets/tokens/black-belt.webp"
+  ],
+  "Spring Golem": [
+   "bestiaries",
+   "tokens/plant/arboreal/awakened-tree.webp"
+  ],
+  "Wondrous Dryad": [
+   "monster-core",
+   "assets/tokens/nymph-dryad.webp"
+  ],
+  "Snake Swarm": [
+   "monster-core-2",
+   "assets/tokens/snake-viper-swarm.webp"
+  ],
+  "Maneater Bug": [
+   "bestiaries",
+   "tokens/bestial/invertebrate/deadly-mantis.webp"
+  ],
+  "Rhino Bug": [
+   "bestiaries",
+   "tokens/bestial/invertebrate/stag-beetle-giant.webp"
+  ],
+  "Carrion Worm": [
+   "monster-core",
+   "assets/tokens/cave-worm.webp"
+  ],
+  "Book Mimic": [
+   "custom",
+   "bookmimic"
+  ],
+  "Door Mimic": [
+   "custom",
+   "doormimic"
+  ],
+  "Harpy Matriarch": [
+   "bestiaries",
+   "tokens/humanoid/hybrid/harpy.webp"
+  ],
+  "Elemental Spark": [
+   "bestiaries",
+   "tokens/elemental/air/spark-bat.webp"
+  ],
+  "Iron Goat": [
+   "bestiaries",
+   "tokens/bestial/mammalian/rosethorn-ram.webp"
+  ],
+  "Shield Guardian": [
+   "monster-core",
+   "assets/tokens/iron-warden.webp"
+  ],
+  "Animated Sword": [
+   "bestiaries",
+   "tokens/constructed/magical/animated-broom.webp"
+  ],
+  "Possessed Armor": [
+   "bestiaries",
+   "tokens/constructed/magical/animated-armor.webp"
+  ],
+  "Drow Scout": [
+   "bestiaries",
+   "tokens/humanoid/darklands/drow-rogue.webp"
+  ],
+  "Troglodyte Champion": [
+   "monster-core",
+   "assets/tokens/xulgath-leader.webp"
+  ]
+ },
+ "reviewed": [
+  "Abominable Yeti",
+  "Acidshot Bug",
+  "Adamantine Golem",
+  "Animated Mirror",
+  "Animated Rug",
+  "Animated Sword",
+  "Ballistic Bug",
+  "Bandit Assassin",
+  "Bandit Bruiser",
+  "Bandit Captain",
+  "Bandit Fire Mage",
+  "Bandit Hunter",
+  "Bandit Ice Mage",
+  "Bandit Mage",
+  "Bandit Minion",
+  "Berserker",
+  "Blood Spider",
+  "Bloodstain",
+  "Bogleech",
+  "Bonfire Bug",
+  "Book Mimic",
+  "Brimstone Blackguard",
+  "Brimstone Blasthand",
+  "Brimstone Scorchsmith",
+  "Bug",
+  "Bugbear Chieftain",
+  "Cactus Viper",
+  "Carrion Worm",
+  "City Guard",
+  "City Watch",
+  "Clay Golem",
+  "Commander",
+  "Couatl",
+  "Crabman",
+  "Crabman Brute",
+  "Cranial Hound",
+  "Croakoa Brood Queen",
+  "Croakoa Brute",
+  "Croakoa Darter",
+  "Croakoa Hunter",
+  "Croakoa Royal Defender",
+  "Croakoa Tadpole",
+  "Croakoa Venomslicer",
+  "Death Knight",
+  "Death Knight Baron",
+  "Death Knight Marshal",
+  "Death Knight Regent",
+  "Deep Gnome",
+  "Deep Gnome Tinkerer",
+  "Dire Wolf Pack Leader",
+  "Diretoad",
+  "Doomsayer",
+  "Door Mimic",
+  "Dregatha, Thrice-Chinned",
+  "Drow Elite Warrior",
+  "Drow Priestess",
+  "Drow Scout",
+  "Drow Warrior",
+  "Elemental Fireling",
+  "Elemental Frost",
+  "Elemental Spark",
+  "Faerie",
+  "Faerie Merrymaker",
+  "Faerie Trickmage",
+  "Faerie Troubadour",
+  "Fanatic",
+  "Fire Snake",
+  "Fungal Hulk",
+  "Fungusfolk Psychotrope",
+  "Fungusfolk Sentinel",
+  "Ghost",
+  "Giant Bug",
+  "Giant Shark",
+  "Gloom Moth",
+  "Gnoll",
+  "Gnoll Battle Shaman",
+  "Gnoll Frenzied One",
+  "Goblin Ratrider",
+  "Grave Crow",
+  "Greater Dryad",
+  "Gremlin",
+  "Gremlin Minion",
+  "Gremlin Roastmaster",
+  "Harpy Matriarch",
+  "Hexbinder",
+  "Hivedriver Bug",
+  "Howling Gale",
+  "Hunter Shark",
+  "Huskwalker",
+  "Iron Goat",
+  "Iron Golem",
+  "Jacker Bug",
+  "Knight Dragoon",
+  "Kobold Clanger",
+  "Krogg, Goblin King",
+  "Legion Captain",
+  "Legion Cavalry",
+  "Legion General",
+  "Legion Siegeworks",
+  "Legion Soldier",
+  "Legion Veteran",
+  "Lion Packleader",
+  "Living Flame",
+  "Living Glacier",
+  "Living Tornado",
+  "Lizardfolk Broodguard",
+  "Lizardfolk Hunter",
+  "Lizardfolk Reedstalker",
+  "Lizardfolk Scalebreaker",
+  "Lizardfolk Shaman",
+  "Mage",
+  "Maneater Bug",
+  "Mote of Fire",
+  "Mummified Beast",
+  "Oathsworn",
+  "Ogre",
+  "Orc",
+  "Orc Battlebard",
+  "Orc Elite",
+  "Orc Raider",
+  "Pactmonger",
+  "Pinky",
+  "Possessed Armor",
+  "Raging Inferno",
+  "Reef Shark",
+  "Rhino Bug",
+  "Rimewisp",
+  "Roaring Blaze",
+  "Royal Guard",
+  "Sand Elemental",
+  "Scarab Swarm",
+  "Scarab Swarm Horde",
+  "Shadowmancer",
+  "Shepherd",
+  "Shield Guardian",
+  "Slug Swarm",
+  "Snake Swarm",
+  "Snake Swarm Horde",
+  "Songweaver",
+  "Spider Swarm Horde",
+  "Spit Bug",
+  "Spring Golem",
+  "Stormshifter",
+  "Surging Bolt",
+  "Surging Tide",
+  "Swamp Raptor",
+  "The Cheat",
+  "Toughrider Bug",
+  "Troglodyte",
+  "Troglodyte Champion",
+  "Troglodyte Muckthrower",
+  "Troglodyte Screecher",
+  "Troglodyte Swollen",
+  "Troglodyte Tunneler",
+  "Vampire Spawn",
+  "Vicejaw Bug",
+  "Walking Iceberg",
+  "Warpig",
+  "Water Elemental",
+  "Water Weird",
+  "Wax Golem",
+  "Whirling Gust",
+  "Winter Golem",
+  "Wondrous Dryad",
+  "Young Remorhaz",
+  "Zephyr"
+ ]
+}
